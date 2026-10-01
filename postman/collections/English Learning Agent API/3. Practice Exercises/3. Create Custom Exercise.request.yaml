@@ -1,0 +1,40 @@
+$kind: http-request
+description: Creates a new practice exercise prompt tied to a target language.
+url: "{{baseUrl}}/api/exercises/"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "Discussing Future Technologies",
+      "prompt_text": "Speak for 60 seconds about how artificial intelligence will impact education and daily life in the next decade.",
+      "language_code": "en-US",
+      "skill_focus": "vocabulary",
+      "cefr_level": "B2",
+      "min_duration_seconds": 30,
+      "max_duration_seconds": 120,
+      "vocabulary_hints": [
+        "automation",
+        "pedagogy",
+        "ubiquitous",
+        "breakthrough"
+      ]
+    }
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 201 Created', function () {
+          pm.response.to.have.status(201);
+      });
+
+      pm.test('Created exercise attributes validated and ID stored', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('id');
+          pm.expect(jsonData.title).to.eql('Discussing Future Technologies');
+          pm.expect(jsonData.cefr_level).to.eql('B2');
+          pm.environment.set('exerciseId', jsonData.id);
+      });
+    language: text/javascript
+order: 3000

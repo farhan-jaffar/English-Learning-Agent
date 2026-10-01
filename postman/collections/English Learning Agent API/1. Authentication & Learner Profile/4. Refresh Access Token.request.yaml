@@ -1,0 +1,20 @@
+$kind: http-request
+description: Rotates access token using the HTTP-only refresh_token cookie stored in the cookie jar.
+url: "{{baseUrl}}/api/auth/refresh/"
+method: POST
+auth:
+  type: noauth
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test('New access token extracted and saved', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('access');
+          pm.environment.set('accessToken', jsonData.access);
+      });
+    language: text/javascript
+order: 4000

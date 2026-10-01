@@ -1,0 +1,50 @@
+$kind: http-request
+description: Registers a new user account, creates primary and native UserLanguage profiles, sets refresh_token HTTP-only cookie, and auto-stores accessToken in environment.
+url: "{{baseUrl}}/api/auth/register/"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "username": "{{username}}",
+      "email": "{{userEmail}}",
+      "password": "{{password}}",
+      "password_confirm": "{{password}}",
+      "native_language": "es-ES",
+      "target_language": "en-US",
+      "target_goal": "Fluency in conversational English",
+      "cefr_level": "B1"
+    }
+auth:
+  type: noauth
+scripts:
+  - type: beforeRequest
+    code: |-
+      const rand = Math.floor(Math.random() * 100000);
+      pm.environment.set('username', 'learner_' + rand);
+      pm.environment.set('userEmail', 'learner_' + rand + '@example.com');
+    language: text/javascript
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 201 Created', function () {
+          pm.response.to.have.status(201);
+      });
+
+      pm.test('Response contains access token and user payload', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('access');
+          pm.expect(jsonData).to.have.property('user');
+          pm.expect(jsonData.user.username).to.eql(pm.environment.get('username'));
+          pm.expect(jsonData.user.languages).to.be.an('array');
+          pm.environment.set('accessToken', jsonData.access);
+      });
+
+      pm.test('Response includes primary language profile', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.user.primary_language).to.not.be.null;
+          pm.expect(jsonData.user.primary_language.language.code).to.eql('en-US');
+      });
+    language: text/javascript
+order: 1000

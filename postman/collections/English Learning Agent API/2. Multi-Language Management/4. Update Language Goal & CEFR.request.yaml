@@ -1,0 +1,27 @@
+$kind: http-request
+description: Updates current CEFR level or learning target goal for an enrolled language.
+url: "{{baseUrl}}/api/auth/languages/{{enrolledLanguageId}}/"
+method: PATCH
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "current_cefr_level": "B1",
+      "target_goal": "Fluent business French presentations"
+    }
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test('CEFR level updated to B1', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.current_cefr_level).to.eql('B1');
+          pm.expect(jsonData.target_goal).to.eql('Fluent business French presentations');
+      });
+    language: text/javascript
+order: 4000

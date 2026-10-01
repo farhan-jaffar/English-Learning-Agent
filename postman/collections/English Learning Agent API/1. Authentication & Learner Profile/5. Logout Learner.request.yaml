@@ -1,0 +1,17 @@
+$kind: http-request
+description: Clears the HTTP-only refresh cookie and logs out the learner.
+url: "{{baseUrl}}/api/auth/logout/"
+method: POST
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test('Logout confirmation returned', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.detail).to.be.a('string');
+      });
+    language: text/javascript
+order: 5000

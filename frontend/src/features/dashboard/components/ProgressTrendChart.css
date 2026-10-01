@@ -1,0 +1,183 @@
+.trend-chart-wrapper {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  padding: var(--spacing-lg) var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+
+.trend-chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.trend-chart-title {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.trend-chart-title svg {
+  color: var(--color-olive-dark);
+}
+
+.optimal-zone-legend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.legend-box {
+  width: 14px;
+  height: 8px;
+  background: rgba(255, 255, 102, 0.35);
+  border: 1px solid rgba(179, 179, 71, 0.4);
+  border-radius: 2px;
+}
+
+.svg-container {
+  width: 100%;
+  position: relative;
+  overflow: visible;
+}
+
+.trend-svg {
+  width: 100%;
+  height: 220px;
+  display: block;
+}
+
+.optimal-zone-rect {
+  fill: rgba(255, 255, 102, 0.15);
+  stroke: rgba(179, 179, 71, 0.25);
+  stroke-dasharray: 4, 4;
+}
+
+.grid-line {
+  stroke: var(--color-border);
+  stroke-width: 1;
+  stroke-dasharray: 2, 4;
+}
+
+.axis-label {
+  font-size: 11px;
+  fill: var(--color-text-muted);
+  font-family: var(--font-body);
+}
+
+.axis-label.y-axis {
+  text-anchor: end;
+}
+
+.chart-stroke {
+  filter: drop-shadow(0 2px 4px rgba(179, 179, 71, 0.25));
+}
+
+.data-point-circle {
+  fill: #FFFFFF;
+  stroke: var(--color-olive-dark);
+  stroke-width: 2.5px;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.data-point-circle.hovered {
+  fill: var(--color-lemon-primary);
+  stroke: var(--color-olive-dark);
+  stroke-width: 3.5px;
+  filter: drop-shadow(0 0 6px rgba(255, 229, 102, 0.8));
+}
+
+.chart-tooltip {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  background: rgba(30, 41, 59, 0.95);
+  color: #FFFFFF;
+  padding: 8px 12px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  pointer-events: none;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 180px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  animation: fadeIn 0.15s ease-out;
+}
+
+.tooltip-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-xs);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 4px;
+}
+
+.tooltip-title {
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 120px;
+}
+
+.tooltip-metrics {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+}
+
+.tooltip-stat strong {
+  color: var(--color-lemon-primary);
+  margin-left: 2px;
+}
+
+.tooltip-date {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.trend-chart-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-2xl);
+  text-align: center;
+  gap: var(--spacing-xs);
+  color: var(--color-text-muted);
+}
+
+.empty-chart-icon {
+  color: var(--color-lemon-muted);
+  margin-bottom: var(--spacing-xs);
+}
+
+.trend-chart-empty h4 {
+  font-size: var(--font-size-md);
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.trend-chart-empty p {
+  font-size: var(--font-size-xs);
+  max-width: 380px;
+  margin: 0;
+}

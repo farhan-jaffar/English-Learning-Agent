@@ -1,0 +1,31 @@
+$kind: http-request
+description: Enrolls the authenticated learner into a second target language without altering existing language metrics.
+url: "{{baseUrl}}/api/auth/languages/"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "language_code": "fr-FR",
+      "current_cefr_level": "A2",
+      "target_goal": "Conversational French for travel",
+      "is_primary": false
+    }
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 201 Created', function () {
+          pm.response.to.have.status(201);
+      });
+
+      pm.test('Language enrollment captured in environment', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('id');
+          pm.expect(jsonData.language.code).to.eql('fr-FR');
+          pm.expect(jsonData.current_cefr_level).to.eql('A2');
+          pm.environment.set('enrolledLanguageId', jsonData.id);
+      });
+    language: text/javascript
+order: 2000

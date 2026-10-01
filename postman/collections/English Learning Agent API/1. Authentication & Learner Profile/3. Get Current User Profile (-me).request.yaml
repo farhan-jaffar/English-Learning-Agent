@@ -1,0 +1,20 @@
+$kind: http-request
+name: 3. Get Current User Profile (/me)
+description: Retrieves the authenticated user profile with explicit multi-language enrollment status.
+url: "{{baseUrl}}/api/auth/me/"
+method: GET
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test('Learner profile matches active token', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.username).to.eql(pm.environment.get('username'));
+          pm.expect(jsonData.languages).to.be.an('array');
+          pm.expect(jsonData.primary_language).to.not.be.null;
+      });
+    language: text/javascript
+order: 3000

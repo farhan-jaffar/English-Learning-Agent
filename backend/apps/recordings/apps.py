@@ -1,0 +1,6 @@
+from django.apps import AppConfig
+
+class RecordingsConfig(AppConfig):
+    name = 'apps.recordings'
+    label = 'recordings'
+

@@ -1,0 +1,23 @@
+$kind: http-request
+description: Aggregates longitudinal speaking analytics (WPM, pause frequency, filler words) isolated to the queried language.
+url: "{{baseUrl}}/api/recordings/progress/?language=en-US&days=30"
+method: GET
+queryParams:
+  language: en-US
+  days: "30"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test('Progress metrics structure validated', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('language');
+          pm.expect(jsonData).to.have.property('average_wpm');
+          pm.expect(jsonData).to.have.property('weakness_frequency');
+          pm.expect(jsonData).to.have.property('time_series');
+      });
+    language: text/javascript
+order: 4000

@@ -1,0 +1,21 @@
+$kind: http-request
+description: Retrieves all languages currently enrolled by the authenticated user with isolated practice statistics.
+url: "{{baseUrl}}/api/auth/languages/"
+method: GET
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test('Languages returned as array', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.be.an('array');
+          pm.expect(jsonData.length).to.be.at.least(1);
+          if (jsonData.length > 0 && !pm.environment.get('enrolledLanguageId')) {
+              pm.environment.set('enrolledLanguageId', jsonData[0].id);
+          }
+      });
+    language: text/javascript
+order: 1000

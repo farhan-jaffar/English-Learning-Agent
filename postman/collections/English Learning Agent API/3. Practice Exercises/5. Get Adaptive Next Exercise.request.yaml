@@ -1,0 +1,22 @@
+$kind: http-request
+description: Calculates the learner's most frequent recent weakness for this language and returns an optimal tailored exercise.
+url: "{{baseUrl}}/api/exercises/next/?language=en-US"
+method: GET
+queryParams:
+  language: en-US
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test('Adaptive recommendation payload valid', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('id');
+          pm.expect(jsonData).to.have.property('title');
+          pm.expect(jsonData).to.have.property('prompt_text');
+          pm.expect(jsonData).to.have.property('skill_focus');
+      });
+    language: text/javascript
+order: 5000

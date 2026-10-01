@@ -1,0 +1,25 @@
+$kind: http-request
+description: Filters exercises by target language, CEFR difficulty level, and targeted pedagogical skill focus.
+url: "{{baseUrl}}/api/exercises/?language=en-US&cefr_level=B1&skill_focus=fluency"
+method: GET
+queryParams:
+  language: en-US
+  cefr_level: B1
+  skill_focus: fluency
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test('Returned exercises adhere to filter params', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.be.an('array');
+          jsonData.forEach(function(ex) {
+              pm.expect(ex.cefr_level).to.eql('B1');
+              pm.expect(ex.skill_focus).to.eql('fluency');
+          });
+      });
+    language: text/javascript
+order: 2000

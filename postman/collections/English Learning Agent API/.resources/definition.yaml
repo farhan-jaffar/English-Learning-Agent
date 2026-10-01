@@ -1,0 +1,8 @@
+$kind: collection
+description: "Comprehensive pre-configured test suite for all English Learning Agent endpoints: Authentication, Multi-Language Management, Practice Exercises, Audio Recordings, and Progress Analytics."
+auth:
+  - id: 8362d9bc-f7f5-4367-b95d-cda0b05d679e
+    type: bearer
+    name: bearer auth
+    credentials:
+      token: "{{accessToken}}"

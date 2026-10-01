@@ -1,0 +1,245 @@
+/* ==========================================================================
+   Audio Recorder Card - Acoustic Studio Engine
+   ========================================================================== */
+
+.recorder-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-5) var(--space-6);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  transition: all var(--transition-base);
+}
+
+.recorder-card.recording {
+  border-color: rgba(255, 229, 102, 0.9);
+  background: linear-gradient(180deg, #FFFFFF 0%, #FEFDF9 100%);
+  box-shadow: 0 0 0 3px rgba(255, 255, 102, 0.3), 0 8px 24px rgba(179, 179, 71, 0.12);
+}
+
+/* Header & Live Meta Bar */
+.recorder-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recorder-status {
+  display: flex;
+  align-items: center;
+}
+
+.recording-live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #FEF3C7;
+  color: #92400E;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  padding: 3px 10px;
+}
+
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #DC2626;
+  box-shadow: 0 0 6px rgba(220, 38, 38, 0.6);
+  animation: pulse-red 1.2s infinite ease-in-out;
+}
+
+@keyframes pulse-red {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(0.85);
+  }
+}
+
+.recorder-timer {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.timer-label {
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.timer-digits {
+  font-weight: 700;
+  color: var(--color-text);
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.05em;
+}
+
+.timer-digits.active {
+  color: #DC2626;
+  text-shadow: 0 0 8px rgba(220, 38, 38, 0.25);
+}
+
+/* Error Alert */
+.recorder-error {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  background-color: #FEE2E2;
+  border: 1px solid #FCA5A5;
+  border-radius: var(--radius-md);
+  color: #991B1B;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+}
+
+.error-icon {
+  flex-shrink: 0;
+}
+
+/* Visualizer Container */
+.recorder-visualizer-area {
+  width: 100%;
+}
+
+/* Audio Player Preview Area */
+.recorder-preview-area {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  background: var(--color-surface-hover);
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+.preview-player-box {
+  width: 100%;
+}
+
+.native-audio-player {
+  width: 100%;
+  height: 42px;
+  border-radius: var(--radius-md);
+  outline: none;
+}
+
+.preview-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+/* Controls Area */
+.recorder-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: var(--space-1);
+}
+
+.btn-record-main {
+  min-width: 240px;
+  height: 52px;
+  border-radius: var(--radius-full) !important;
+  box-shadow: 0 4px 18px rgba(179, 179, 71, 0.3) !important;
+  font-size: var(--font-size-base) !important;
+  font-weight: 700 !important;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%) !important;
+  color: var(--color-text) !important;
+  border: 1px solid rgba(179, 179, 71, 0.4) !important;
+  transition: all var(--transition-fast) !important;
+  letter-spacing: -0.01em;
+}
+
+.btn-record-main:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(179, 179, 71, 0.42) !important;
+}
+
+.btn-record-main:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.btn-icon-pulse {
+  animation: pulse-mic 2.4s infinite ease-in-out;
+}
+
+@keyframes pulse-mic {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.18);
+  }
+}
+
+.active-controls-group,
+.review-controls-group {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  justify-content: center;
+}
+
+.btn-submit-analysis {
+  min-width: 220px;
+  height: 48px;
+  border-radius: var(--radius-full) !important;
+  background: linear-gradient(135deg, var(--color-olive) 0%, var(--color-olive-dark) 100%) !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 16px rgba(138, 138, 46, 0.32) !important;
+  transition: all var(--transition-fast) !important;
+}
+
+.btn-submit-analysis:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(138, 138, 46, 0.42) !important;
+}
+
+/* Guidance Footer */
+.recorder-footer-hint {
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  min-height: 18px;
+}
+
+.submitting-hint {
+  color: var(--color-olive-deep);
+  font-weight: 600;
+  animation: fadeIn 0.4s ease;
+}
+
+@media (max-width: 640px) {
+  .recorder-card {
+    padding: var(--space-4);
+  }
+
+  .active-controls-group,
+  .review-controls-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .active-controls-group button,
+  .review-controls-group button {
+    width: 100%;
+  }
+}

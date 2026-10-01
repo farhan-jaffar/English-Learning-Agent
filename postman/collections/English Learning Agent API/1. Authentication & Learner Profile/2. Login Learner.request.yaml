@@ -1,0 +1,34 @@
+$kind: http-request
+description: Authenticates learner credentials, issues a new access token, and sets the HTTP-only refresh cookie.
+url: "{{baseUrl}}/api/auth/login/"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "username": "{{username}}",
+      "password": "{{password}}"
+    }
+auth:
+  type: noauth
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test('Access token updated in environment', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('access');
+          pm.environment.set('accessToken', jsonData.access);
+      });
+
+      pm.test('Returned user matches environment username', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.user.username).to.eql(pm.environment.get('username'));
+      });
+    language: text/javascript
+order: 2000

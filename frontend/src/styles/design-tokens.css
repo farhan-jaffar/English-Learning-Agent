@@ -1,0 +1,133 @@
+:root {
+  /* Brand Palette - Zesty Lemon */
+  --color-primary: #FFFF66;          /* Vibrant Electric Lemon */
+  --color-primary-light: #FFFF99;    /* Light lemon tint */
+  --color-secondary: #FFE566;        /* Warm sunshine yellow */
+  --color-muted: #D6D58B;            /* Sage/pastel olive-yellow */
+  --color-olive: #B3B347;            /* Solid olive CTA & active border */
+  --color-olive-dark: #8A8A2E;       /* Deep olive for text/hover */
+  --color-olive-deep: #55551A;       /* Ultra-deep olive for contrast text */
+
+  /* Neutrals - Warm Paper Aesthetic */
+  --color-bg: #FAFAF7;               /* Off-white warm page canvas */
+  --color-surface: #FFFFFF;          /* Pure white card backgrounds */
+  --color-surface-hover: #F8F8F4;    /* Subtle hover surface */
+  --color-surface-subtle: #F2F2EB;   /* Secondary surface background */
+  
+  /* Text Colors */
+  --color-text: #181816;             /* High contrast charcoal */
+  --color-text-secondary: #575752;   /* Secondary body text */
+  --color-text-muted: #8A8A82;       /* Dim labels and hints */
+  --color-text-on-primary: #181816;  /* ALWAYS dark text on yellow */
+  --color-text-on-olive: #FFFFFF;    /* White text on dark olive */
+
+  /* Borders & Dividers */
+  --color-border: #E8E8DE;           /* Default border */
+  --color-border-subtle: #F0F0E6;    /* Hairline borders */
+  --color-border-focus: #B3B347;     /* Focus ring */
+
+  /* Semantic Feedback */
+  --color-success: #2E7D32;
+  --color-success-bg: #E8F5E9;
+  --color-success-border: #A5D6A7;
+  
+  --color-error: #C62828;
+  --color-error-bg: #FFEBEE;
+  --color-error-border: #EF9A9A;
+
+  --color-warning: #B26A00;
+  --color-warning-bg: #FFF8E1;
+  --color-warning-border: #FFE082;
+
+  --color-info: #0277BD;
+  --color-info-bg: #E1F5FE;
+  --color-info-border: #81D4FA;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --font-size-2xs: 0.6875rem; /* 11px */
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px */
+  --font-size-3xl: 1.875rem;  /* 30px */
+  --font-size-4xl: 2.25rem;   /* 36px */
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  --line-height-tight: 1.2;
+  --line-height-snug: 1.35;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.65;
+
+  /* Spacing */
+  --space-1: 0.25rem;  /* 4px */
+  --space-2: 0.5rem;   /* 8px */
+  --space-3: 0.75rem;  /* 12px */
+  --space-4: 1rem;     /* 16px */
+  --space-5: 1.25rem;  /* 20px */
+  --space-6: 1.5rem;   /* 24px */
+  --space-8: 2rem;     /* 32px */
+  --space-10: 2.5rem;  /* 40px */
+  --space-12: 3rem;    /* 48px */
+  --space-16: 4rem;    /* 64px */
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Premium Shadows */
+  --shadow-xs: 0 1px 2px rgba(24, 24, 22, 0.04);
+  --shadow-sm: 0 2px 4px rgba(24, 24, 22, 0.05), 0 1px 2px rgba(24, 24, 22, 0.03);
+  --shadow-md: 0 6px 16px -2px rgba(24, 24, 22, 0.08), 0 2px 6px -1px rgba(24, 24, 22, 0.04);
+  --shadow-lg: 0 12px 28px -4px rgba(24, 24, 22, 0.1), 0 4px 12px -2px rgba(24, 24, 22, 0.05);
+  --shadow-xl: 0 20px 40px -8px rgba(24, 24, 22, 0.14), 0 8px 16px -4px rgba(24, 24, 22, 0.06);
+  --shadow-lemon-glow: 0 0 0 3px rgba(255, 255, 102, 0.5), 0 4px 12px rgba(179, 179, 71, 0.25);
+  --shadow-olive-glow: 0 4px 14px rgba(179, 179, 71, 0.35);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 220ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 350ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Layout Constants */
+  --sidebar-width: 260px;
+  --sidebar-collapsed-width: 80px;
+  --navbar-height: 64px;
+  --bottom-nav-height: 64px;
+  --container-max-width: 1200px;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 500;
+  --z-toast: 1000;
+
+  /* Aliases & Component Compatibility */
+  --spacing-xs: var(--space-1);
+  --spacing-sm: var(--space-2);
+  --spacing-md: var(--space-4);
+  --spacing-lg: var(--space-6);
+  --spacing-xl: var(--space-8);
+  --spacing-2xl: var(--space-12);
+  --radius-2xl: 20px;
+  --font-heading: var(--font-display);
+  --font-body: var(--font-family);
+  --color-text-primary: var(--color-text);
+  --color-lemon-primary: var(--color-primary);
+  --color-lemon-light: var(--color-primary-light);
+  --color-lemon-secondary: var(--color-secondary);
+  --color-lemon-muted: var(--color-muted);
+  --color-olive-primary: var(--color-olive);
+  --color-olive-muted: var(--color-muted);
+}

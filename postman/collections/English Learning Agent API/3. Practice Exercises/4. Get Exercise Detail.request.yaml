@@ -1,0 +1,18 @@
+$kind: http-request
+description: Fetches complete prompt instructions and vocabulary hints for a specific exercise.
+url: "{{baseUrl}}/api/exercises/{{exerciseId}}/"
+method: GET
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test('Detail contains prompt text and language', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.id).to.eql(pm.environment.get('exerciseId'));
+          pm.expect(jsonData).to.have.property('prompt_text');
+      });
+    language: text/javascript
+order: 4000

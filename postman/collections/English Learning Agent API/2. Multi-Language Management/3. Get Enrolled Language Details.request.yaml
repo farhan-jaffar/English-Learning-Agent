@@ -1,0 +1,18 @@
+$kind: http-request
+description: Fetches specific UserLanguage profile details by ID.
+url: "{{baseUrl}}/api/auth/languages/{{enrolledLanguageId}}/"
+method: GET
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test('Language profile details match enrolled ID', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.id).to.eql(pm.environment.get('enrolledLanguageId'));
+          pm.expect(jsonData).to.have.property('total_sessions_completed');
+      });
+    language: text/javascript
+order: 3000

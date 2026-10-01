@@ -1,0 +1,17 @@
+$kind: http-request
+description: Atomically sets this enrolled language as the learner's primary language.
+url: "{{baseUrl}}/api/auth/languages/{{enrolledLanguageId}}/set-primary/"
+method: POST
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 200 OK', function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test('Language is marked as primary', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.is_primary).to.be.true;
+      });
+    language: text/javascript
+order: 5000

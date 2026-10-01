@@ -1,0 +1,31 @@
+$kind: http-request
+description: Uploads speech recording multipart file, automatically binds to the exercise target language, and triggers asynchronous analysis.
+url: "{{baseUrl}}/api/recordings/upload/"
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: exercise
+      value: "{{exerciseId}}"
+    - type: text
+      key: mime_type
+      value: audio/webm
+    - type: file
+      key: audio_file
+      src: sample_audio.webm
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status code is 201 Created', function () {
+          pm.response.to.have.status(201);
+      });
+
+      pm.test('Recording ID captured and status verified', function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('id');
+          pm.expect(jsonData.status).to.be.oneOf(['uploaded', 'processing', 'analyzed']);
+          pm.environment.set('recordingId', jsonData.id);
+      });
+    language: text/javascript
+order: 1000
