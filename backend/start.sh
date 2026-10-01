@@ -11,6 +11,10 @@ python manage.py collectstatic --noinput
 echo "--> Running database migrations..."
 python manage.py migrate --noinput
 
+# Seed default practice exercises (A1 to C2)
+echo "--> Seeding practice exercises..."
+python manage.py seed_exercises
+
 # Start Celery worker in background if not in synchronous eager mode
 if [ "$CELERY_TASK_ALWAYS_EAGER" != "True" ] && [ "$CELERY_TASK_ALWAYS_EAGER" != "true" ] && [ -n "$CELERY_BROKER_URL" ]; then
     echo "--> Starting background Celery worker (concurrency=2)..."
