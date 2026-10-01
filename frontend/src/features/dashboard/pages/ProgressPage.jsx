@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { recordingsApi } from '../../../lib/api/recordings';
+import { getMediaUrl } from '../../../lib/api/client';
 import { useAuthStore } from '../../../stores/authStore';
 import { Spinner } from '../../../components/ui/Spinner';
 import { 
@@ -371,11 +372,7 @@ export function ProgressPage() {
                   <span className="audio-lbl">Audio Recording:</span>
                   <audio
                     controls
-                    src={
-                      inspectingRecording.audio_file.startsWith('http')
-                        ? inspectingRecording.audio_file
-                        : `${(import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000/api').replace(/\/api\/?$/, '')}${inspectingRecording.audio_file}`
-                    }
+                    src={getMediaUrl(inspectingRecording.audio_file)}
                     className="inspect-audio-player"
                   />
                 </div>

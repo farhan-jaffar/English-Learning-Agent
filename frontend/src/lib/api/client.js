@@ -10,6 +10,25 @@ export const apiClient = axios.create({
   },
 });
 
+export const getMediaUrl = (filePath) => {
+  if (!filePath) return '';
+  if (filePath.startsWith('http://') || filePath.startsWith('https://')) {
+    return filePath;
+  }
+  const baseUrl = (import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000/api').replace(/\/api\/?$/, '');
+  const cleanPath = filePath.trim();
+  if (cleanPath.startsWith('/media/')) {
+    return `${baseUrl}${cleanPath}`;
+  }
+  if (cleanPath.startsWith('media/')) {
+    return `${baseUrl}/${cleanPath}`;
+  }
+  if (cleanPath.startsWith('/')) {
+    return `${baseUrl}/media${cleanPath}`;
+  }
+  return `${baseUrl}/media/${cleanPath}`;
+};
+
 let isRefreshing = false;
 let failedQueue = [];
 

@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { recordingsApi } from '../../../lib/api/recordings';
+import { getMediaUrl } from '../../../lib/api/client';
 import { Spinner } from '../../../components/ui/Spinner';
 import Button from '../../../components/ui/Button';
 import { 
@@ -270,11 +271,7 @@ export function RecordingsPage() {
                             </div>
                             <audio 
                               controls 
-                              src={
-                                rec.audio_file.startsWith('http') 
-                                  ? rec.audio_file 
-                                  : `${(import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000/api').replace(/\/api\/?$/, '')}${rec.audio_file}`
-                              } 
+                              src={getMediaUrl(rec.audio_file)} 
                               className="clean-audio-player" 
                             />
                           </div>
