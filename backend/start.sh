@@ -11,6 +11,12 @@ python manage.py collectstatic --noinput
 echo "--> Running database migrations..."
 python manage.py migrate --noinput
 
+# Load pre-seeded data fixture (recordings, historical sessions, exercises, users)
+if [ -f "initial_data.json" ]; then
+    echo "--> Loading initial data fixture..."
+    python manage.py loaddata initial_data.json || true
+fi
+
 # Seed default practice exercises (A1 to C2)
 echo "--> Seeding practice exercises..."
 python manage.py seed_exercises

@@ -1,0 +1,6463 @@
+[
+{
+  "model": "authentication.language",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.144Z",
+    "updated_at": "2026-09-16T06:09:39.144Z",
+    "code": "en-US",
+    "name": "English (US)",
+    "is_active": true
+  }
+},
+{
+  "model": "authentication.language",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-21T05:11:49.510Z",
+    "updated_at": "2026-09-21T05:11:49.510Z",
+    "code": "es-ES",
+    "name": "Spanish (Spain)",
+    "is_active": true
+  }
+},
+{
+  "model": "authentication.language",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-21T05:11:49.533Z",
+    "updated_at": "2026-09-21T05:11:49.533Z",
+    "code": "fr-FR",
+    "name": "French (France)",
+    "is_active": true
+  }
+},
+{
+  "model": "authentication.language",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-09-21T05:11:49.548Z",
+    "updated_at": "2026-09-21T05:11:49.548Z",
+    "code": "de-DE",
+    "name": "German (Germany)",
+    "is_active": true
+  }
+},
+{
+  "model": "authentication.language",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-09-21T05:18:01.990Z",
+    "updated_at": "2026-09-21T05:18:01.990Z",
+    "code": "es-es",
+    "name": "es-ES",
+    "is_active": true
+  }
+},
+{
+  "model": "authentication.language",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-09-21T09:04:00.800Z",
+    "updated_at": "2026-09-21T09:04:00.802Z",
+    "code": "spani",
+    "name": "Spanish",
+    "is_active": true
+  }
+},
+{
+  "model": "authentication.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$708vIIeNVbG4fTob0FUsI2$ay12o+RIvsNlERj/Qh1//2oJUA6/Ol61+TG/QHHPpio=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user_7415db",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-21T05:18:00.314Z",
+    "created_at": "2026-09-21T05:18:01.945Z",
+    "updated_at": "2026-09-21T05:18:01.945Z",
+    "email": "user_7415db@example.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "authentication.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$xLvEDr43nxdlURBqP7K3jP$JoLOB6ZoB1dN3z2PNVtJTXmU0KWWx94R/3gydvfa2F8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user_74d96a",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-21T05:18:29.689Z",
+    "created_at": "2026-09-21T05:18:31.374Z",
+    "updated_at": "2026-09-21T05:18:31.374Z",
+    "email": "user_74d96a@example.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "authentication.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$T9WEmxWPJPRiLdrFaaWBr6$lJXA/5YEl+DxnjNZXJzaKEqJW8e10fbwto0Kdc81EjY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "learner_11924",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-21T06:34:15.212Z",
+    "created_at": "2026-09-21T06:34:15.896Z",
+    "updated_at": "2026-09-21T06:34:15.896Z",
+    "email": "learner_11924@example.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "authentication.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$DPUnkHhlXqFdNqO6YhEsY0$Zp+T0SUodWKydJdlLOHBf+IWRzoatgLbDNOddUuYrQw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "test_learner_01",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-21T09:03:59.609Z",
+    "created_at": "2026-09-21T09:04:00.739Z",
+    "updated_at": "2026-09-21T09:04:00.739Z",
+    "email": "test_learner_01@example.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "authentication.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$b3QOhxJbqxKvJWnIlsJlvo$roerlstyiBFaaCx1UO4ztOYhXlEFPeDeZNeX7zKFJrc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "learner_phase4",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-21T09:34:58.604Z",
+    "created_at": "2026-09-21T09:35:00.485Z",
+    "updated_at": "2026-09-21T09:35:00.485Z",
+    "email": "learner_p4@example.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "authentication.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$kJsyERDmMAWh70rOYAkj8h$63dV08BrzMUQlF5GAr8D11WC+k4B7jF0ntzmhULAm9o=",
+    "last_login": "2026-09-28T07:55:38.596Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-09-28T07:54:50.986Z",
+    "created_at": "2026-09-28T07:54:50.987Z",
+    "updated_at": "2026-09-28T07:54:53.233Z",
+    "email": "admin@example.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "authentication.userlanguage",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-21T05:18:01.971Z",
+    "updated_at": "2026-09-21T05:18:01.971Z",
+    "user": 3,
+    "language": 1,
+    "current_cefr_level": "B1",
+    "target_goal": "Travel",
+    "is_native": false,
+    "is_learning": true,
+    "is_primary": true,
+    "total_practice_seconds": 0,
+    "total_sessions_completed": 0
+  }
+},
+{
+  "model": "authentication.userlanguage",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-09-21T05:18:02.002Z",
+    "updated_at": "2026-09-21T05:18:02.002Z",
+    "user": 3,
+    "language": 5,
+    "current_cefr_level": "B1",
+    "target_goal": "General Fluency",
+    "is_native": true,
+    "is_learning": false,
+    "is_primary": false,
+    "total_practice_seconds": 0,
+    "total_sessions_completed": 0
+  }
+},
+{
+  "model": "authentication.userlanguage",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-09-21T05:18:31.394Z",
+    "updated_at": "2026-09-21T05:18:31.394Z",
+    "user": 4,
+    "language": 1,
+    "current_cefr_level": "B1",
+    "target_goal": "Travel",
+    "is_native": false,
+    "is_learning": true,
+    "is_primary": true,
+    "total_practice_seconds": 0,
+    "total_sessions_completed": 0
+  }
+},
+{
+  "model": "authentication.userlanguage",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-09-21T05:18:31.411Z",
+    "updated_at": "2026-09-21T05:18:31.411Z",
+    "user": 4,
+    "language": 5,
+    "current_cefr_level": "B1",
+    "target_goal": "General Fluency",
+    "is_native": true,
+    "is_learning": false,
+    "is_primary": false,
+    "total_practice_seconds": 0,
+    "total_sessions_completed": 0
+  }
+},
+{
+  "model": "authentication.userlanguage",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-09-21T06:34:15.909Z",
+    "updated_at": "2026-09-21T06:34:15.909Z",
+    "user": 5,
+    "language": 1,
+    "current_cefr_level": "B1",
+    "target_goal": "Fluency in conversational English",
+    "is_native": false,
+    "is_learning": true,
+    "is_primary": true,
+    "total_practice_seconds": 0,
+    "total_sessions_completed": 0
+  }
+},
+{
+  "model": "authentication.userlanguage",
+  "pk": 8,
+  "fields": {
+    "created_at": "2026-09-21T06:34:15.921Z",
+    "updated_at": "2026-09-21T06:34:15.921Z",
+    "user": 5,
+    "language": 5,
+    "current_cefr_level": "B1",
+    "target_goal": "General Fluency",
+    "is_native": true,
+    "is_learning": false,
+    "is_primary": false,
+    "total_practice_seconds": 0,
+    "total_sessions_completed": 0
+  }
+},
+{
+  "model": "authentication.userlanguage",
+  "pk": 9,
+  "fields": {
+    "created_at": "2026-09-21T09:04:00.775Z",
+    "updated_at": "2026-09-21T09:04:00.775Z",
+    "user": 6,
+    "language": 1,
+    "current_cefr_level": "B2",
+    "target_goal": "IELTS / TOEFL Prep",
+    "is_native": false,
+    "is_learning": true,
+    "is_primary": true,
+    "total_practice_seconds": 0,
+    "total_sessions_completed": 0
+  }
+},
+{
+  "model": "authentication.userlanguage",
+  "pk": 10,
+  "fields": {
+    "created_at": "2026-09-21T09:04:00.818Z",
+    "updated_at": "2026-09-21T09:04:00.818Z",
+    "user": 6,
+    "language": 6,
+    "current_cefr_level": "B1",
+    "target_goal": "General Fluency",
+    "is_native": true,
+    "is_learning": false,
+    "is_primary": false,
+    "total_practice_seconds": 0,
+    "total_sessions_completed": 0
+  }
+},
+{
+  "model": "authentication.userlanguage",
+  "pk": 11,
+  "fields": {
+    "created_at": "2026-09-21T09:35:00.520Z",
+    "updated_at": "2026-09-28T11:56:28.242Z",
+    "user": 7,
+    "language": 1,
+    "current_cefr_level": "B1",
+    "target_goal": "General Fluency",
+    "is_native": false,
+    "is_learning": true,
+    "is_primary": true,
+    "total_practice_seconds": 922,
+    "total_sessions_completed": 19
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.177Z",
+    "updated_at": "2026-09-16T06:09:39.177Z",
+    "name": "self-introduction"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.190Z",
+    "updated_at": "2026-09-16T06:09:39.190Z",
+    "name": "hobbies"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.204Z",
+    "updated_at": "2026-09-16T06:09:39.204Z",
+    "name": "basics"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.239Z",
+    "updated_at": "2026-09-16T06:09:39.239Z",
+    "name": "daily routine"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.250Z",
+    "updated_at": "2026-09-16T06:09:39.250Z",
+    "name": "present simple"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.260Z",
+    "updated_at": "2026-09-16T06:09:39.260Z",
+    "name": "time"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.294Z",
+    "updated_at": "2026-09-16T06:09:39.294Z",
+    "name": "food"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 8,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.304Z",
+    "updated_at": "2026-09-16T06:09:39.304Z",
+    "name": "preferences"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 9,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.315Z",
+    "updated_at": "2026-09-16T06:09:39.315Z",
+    "name": "taste"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 10,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.349Z",
+    "updated_at": "2026-09-16T06:09:39.349Z",
+    "name": "past events"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 11,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.359Z",
+    "updated_at": "2026-09-16T06:09:39.359Z",
+    "name": "travel"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 12,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.370Z",
+    "updated_at": "2026-09-16T06:09:39.370Z",
+    "name": "storytelling"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 13,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.403Z",
+    "updated_at": "2026-09-16T06:09:39.403Z",
+    "name": "geography"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 14,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.414Z",
+    "updated_at": "2026-09-16T06:09:39.414Z",
+    "name": "hometown"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 15,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.424Z",
+    "updated_at": "2026-09-16T06:09:39.424Z",
+    "name": "culture"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 16,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.457Z",
+    "updated_at": "2026-09-16T06:09:39.457Z",
+    "name": "future tense"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 17,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.469Z",
+    "updated_at": "2026-09-16T06:09:39.469Z",
+    "name": "ambitions"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 18,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.479Z",
+    "updated_at": "2026-09-16T06:09:39.479Z",
+    "name": "planning"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 19,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.512Z",
+    "updated_at": "2026-09-16T06:09:39.512Z",
+    "name": "workplace"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 20,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.522Z",
+    "updated_at": "2026-09-16T06:09:39.522Z",
+    "name": "technology"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 21,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.532Z",
+    "updated_at": "2026-09-16T06:09:39.532Z",
+    "name": "comparison"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 22,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.565Z",
+    "updated_at": "2026-09-16T06:09:39.565Z",
+    "name": "conflict resolution"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 23,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.576Z",
+    "updated_at": "2026-09-16T06:09:39.576Z",
+    "name": "problem-solving"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 24,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.610Z",
+    "updated_at": "2026-09-16T06:09:39.610Z",
+    "name": "society"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 25,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.620Z",
+    "updated_at": "2026-09-16T06:09:39.620Z",
+    "name": "digital life"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 26,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.630Z",
+    "updated_at": "2026-09-16T06:09:39.630Z",
+    "name": "relationships"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 27,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.661Z",
+    "updated_at": "2026-09-16T06:09:39.661Z",
+    "name": "artificial intelligence"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 28,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.671Z",
+    "updated_at": "2026-09-16T06:09:39.671Z",
+    "name": "ethics"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 29,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.682Z",
+    "updated_at": "2026-09-16T06:09:39.682Z",
+    "name": "workplace transformation"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 30,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.716Z",
+    "updated_at": "2026-09-16T06:09:39.716Z",
+    "name": "sustainability"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 31,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.726Z",
+    "updated_at": "2026-09-16T06:09:39.726Z",
+    "name": "environment"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 32,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.737Z",
+    "updated_at": "2026-09-16T06:09:39.737Z",
+    "name": "public policy"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 33,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.772Z",
+    "updated_at": "2026-09-16T06:09:39.772Z",
+    "name": "leadership"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 34,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.784Z",
+    "updated_at": "2026-09-16T06:09:39.784Z",
+    "name": "emotional intelligence"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 35,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.794Z",
+    "updated_at": "2026-09-16T06:09:39.794Z",
+    "name": "resilience"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 36,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.828Z",
+    "updated_at": "2026-09-16T06:09:39.828Z",
+    "name": "macroeconomics"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 37,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.839Z",
+    "updated_at": "2026-09-16T06:09:39.839Z",
+    "name": "education"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 38,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.880Z",
+    "updated_at": "2026-09-16T06:09:39.880Z",
+    "name": "digital rights"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 39,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.894Z",
+    "updated_at": "2026-09-16T06:09:39.894Z",
+    "name": "governance"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 40,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.905Z",
+    "updated_at": "2026-09-16T06:09:39.906Z",
+    "name": "jurisprudence"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 41,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.939Z",
+    "updated_at": "2026-09-16T06:09:39.940Z",
+    "name": "philosophy"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 42,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.950Z",
+    "updated_at": "2026-09-16T06:09:39.950Z",
+    "name": "neuroscience"
+  }
+},
+{
+  "model": "exercises.topictag",
+  "pk": 43,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.961Z",
+    "updated_at": "2026-09-16T06:09:39.961Z",
+    "name": "epistemology"
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.164Z",
+    "updated_at": "2026-09-16T06:09:39.164Z",
+    "language": 1,
+    "title": "Introduce Yourself",
+    "prompt_text": "Introduce yourself to a new classmate. Say your name, where you are from, your favorite hobby, and why you want to learn English.",
+    "skill_focus": "mixed",
+    "cefr_level": "A1",
+    "source": "static",
+    "vocabulary_hints": [
+      "name",
+      "from",
+      "hobby",
+      "student",
+      "learn",
+      "family",
+      "like"
+    ],
+    "min_duration_seconds": 15,
+    "max_duration_seconds": 60,
+    "topic_tags": [
+      3,
+      2,
+      1
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.228Z",
+    "updated_at": "2026-09-16T06:09:39.228Z",
+    "language": 1,
+    "title": "My Daily Morning Routine",
+    "prompt_text": "Describe what you usually do in the morning from the moment you wake up until you start work or study.",
+    "skill_focus": "grammar",
+    "cefr_level": "A1",
+    "source": "static",
+    "vocabulary_hints": [
+      "wake up",
+      "breakfast",
+      "shower",
+      "coffee",
+      "brush teeth",
+      "morning"
+    ],
+    "min_duration_seconds": 20,
+    "max_duration_seconds": 60,
+    "topic_tags": [
+      4,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.283Z",
+    "updated_at": "2026-09-16T06:09:39.283Z",
+    "language": 1,
+    "title": "Favorite Foods",
+    "prompt_text": "Talk about two of your favorite foods. Describe what they taste like and when you like to eat them.",
+    "skill_focus": "vocabulary",
+    "cefr_level": "A1",
+    "source": "static",
+    "vocabulary_hints": [
+      "delicious",
+      "sweet",
+      "spicy",
+      "restaurant",
+      "cook",
+      "ingredients"
+    ],
+    "min_duration_seconds": 15,
+    "max_duration_seconds": 60,
+    "topic_tags": [
+      7,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.337Z",
+    "updated_at": "2026-09-16T06:09:39.337Z",
+    "language": 1,
+    "title": "A Memorable Weekend Trip",
+    "prompt_text": "Tell a short story about a trip or weekend outing you took recently. Use past tense verbs to explain where you went and what happened.",
+    "skill_focus": "grammar",
+    "cefr_level": "A2",
+    "source": "static",
+    "vocabulary_hints": [
+      "traveled",
+      "visited",
+      "enjoyed",
+      "arrived",
+      "weather",
+      "hotel",
+      "scenery"
+    ],
+    "min_duration_seconds": 30,
+    "max_duration_seconds": 90,
+    "topic_tags": [
+      10,
+      12,
+      11
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.392Z",
+    "updated_at": "2026-09-16T06:09:39.392Z",
+    "language": 1,
+    "title": "Describing Your Hometown",
+    "prompt_text": "Describe the town or city where you grew up. Mention the weather, the people, and what visitors should see.",
+    "skill_focus": "fluency",
+    "cefr_level": "A2",
+    "source": "static",
+    "vocabulary_hints": [
+      "population",
+      "neighborhood",
+      "historic",
+      "parks",
+      "crowded",
+      "peaceful"
+    ],
+    "min_duration_seconds": 30,
+    "max_duration_seconds": 90,
+    "topic_tags": [
+      15,
+      13,
+      14
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.447Z",
+    "updated_at": "2026-09-16T06:09:39.447Z",
+    "language": 1,
+    "title": "Future Plans and Goals",
+    "prompt_text": "Explain what you are planning to achieve over the next six months in your studies or personal life.",
+    "skill_focus": "grammar",
+    "cefr_level": "A2",
+    "source": "static",
+    "vocabulary_hints": [
+      "going to",
+      "plan to",
+      "hope",
+      "career",
+      "improve",
+      "schedule"
+    ],
+    "min_duration_seconds": 30,
+    "max_duration_seconds": 90,
+    "topic_tags": [
+      17,
+      16,
+      18
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.501Z",
+    "updated_at": "2026-09-16T06:09:39.501Z",
+    "language": 1,
+    "title": "Remote Work vs Office Work",
+    "prompt_text": "Discuss the advantages and disadvantages of working remotely compared to working in a traditional office. Conclude with your personal preference.",
+    "skill_focus": "fluency",
+    "cefr_level": "B1",
+    "source": "static",
+    "vocabulary_hints": [
+      "flexibility",
+      "commute",
+      "productivity",
+      "collaboration",
+      "work-life balance",
+      "distraction"
+    ],
+    "min_duration_seconds": 45,
+    "max_duration_seconds": 120,
+    "topic_tags": [
+      21,
+      20,
+      19
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 8,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.554Z",
+    "updated_at": "2026-09-16T06:09:39.554Z",
+    "language": 1,
+    "title": "Handling a Difficult Customer or Situation",
+    "prompt_text": "Describe a situation where you faced an unexpected challenge or misunderstanding. How did you resolve it?",
+    "skill_focus": "vocabulary",
+    "cefr_level": "B1",
+    "source": "static",
+    "vocabulary_hints": [
+      "misunderstanding",
+      "resolution",
+      "patience",
+      "compromise",
+      "negotiation",
+      "outcome"
+    ],
+    "min_duration_seconds": 45,
+    "max_duration_seconds": 120,
+    "topic_tags": [
+      22,
+      23,
+      12
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 9,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.599Z",
+    "updated_at": "2026-09-16T06:09:39.599Z",
+    "language": 1,
+    "title": "Impact of Social Media on Friendships",
+    "prompt_text": "Share your perspective on whether social media has made people feel more connected or more isolated. Give specific examples.",
+    "skill_focus": "mixed",
+    "cefr_level": "B1",
+    "source": "static",
+    "vocabulary_hints": [
+      "connected",
+      "isolated",
+      "algorithms",
+      "interaction",
+      "meaningful",
+      "superficial"
+    ],
+    "min_duration_seconds": 45,
+    "max_duration_seconds": 120,
+    "topic_tags": [
+      25,
+      26,
+      24
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 10,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.651Z",
+    "updated_at": "2026-09-16T06:09:39.651Z",
+    "language": 1,
+    "title": "Artificial Intelligence in Everyday Life",
+    "prompt_text": "Analyze how artificial intelligence is transforming education and modern jobs. Weigh the efficiency benefits against ethical concerns.",
+    "skill_focus": "vocabulary",
+    "cefr_level": "B2",
+    "source": "static",
+    "vocabulary_hints": [
+      "automation",
+      "disruption",
+      "ethical dilemma",
+      "efficiency",
+      "augmentation",
+      "cognition"
+    ],
+    "min_duration_seconds": 60,
+    "max_duration_seconds": 120,
+    "topic_tags": [
+      27,
+      28,
+      29
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 11,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.705Z",
+    "updated_at": "2026-09-16T06:09:39.705Z",
+    "language": 1,
+    "title": "Urban Sustainability and Green Cities",
+    "prompt_text": "Propose three pragmatic initiatives that municipal governments should implement to reduce carbon emissions and improve urban living conditions.",
+    "skill_focus": "fluency",
+    "cefr_level": "B2",
+    "source": "static",
+    "vocabulary_hints": [
+      "infrastructure",
+      "carbon footprint",
+      "renewable energy",
+      "transit",
+      "biodiversity",
+      "sustainability"
+    ],
+    "min_duration_seconds": 60,
+    "max_duration_seconds": 120,
+    "topic_tags": [
+      31,
+      32,
+      30
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 12,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.762Z",
+    "updated_at": "2026-09-16T06:09:39.762Z",
+    "language": 1,
+    "title": "Overcoming Professional Adversity",
+    "prompt_text": "Reflect on a setback you experienced. Discuss how resilience and emotional intelligence enabled you to rebound and grow.",
+    "skill_focus": "pronunciation",
+    "cefr_level": "B2",
+    "source": "static",
+    "vocabulary_hints": [
+      "resilience",
+      "adversity",
+      "perseverance",
+      "emotional intelligence",
+      "perspective",
+      "growth mindset"
+    ],
+    "min_duration_seconds": 60,
+    "max_duration_seconds": 120,
+    "topic_tags": [
+      34,
+      33,
+      35
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 13,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.816Z",
+    "updated_at": "2026-09-16T06:09:39.816Z",
+    "language": 1,
+    "title": "The Economics of Higher Education",
+    "prompt_text": "Critique the contemporary model of higher education financing. To what extent should tertiary education be publicly funded, and what are the macroeconomic ramifications?",
+    "skill_focus": "vocabulary",
+    "cefr_level": "C1",
+    "source": "static",
+    "vocabulary_hints": [
+      "macroeconomic",
+      "tertiary education",
+      "subsidize",
+      "inequity",
+      "intellectual capital",
+      "socioeconomic mobility"
+    ],
+    "min_duration_seconds": 60,
+    "max_duration_seconds": 120,
+    "topic_tags": [
+      37,
+      36,
+      32
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 14,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.866Z",
+    "updated_at": "2026-09-16T06:09:39.866Z",
+    "language": 1,
+    "title": "Algorithmic Bias and Digital Sovereignty",
+    "prompt_text": "Examine the tension between corporate proprietary algorithmic governance and personal data autonomy. Deliver a structured argument proposing an international regulatory framework.",
+    "skill_focus": "fluency",
+    "cefr_level": "C1",
+    "source": "static",
+    "vocabulary_hints": [
+      "algorithmic bias",
+      "sovereignty",
+      "transparency",
+      "accountability",
+      "jurisprudence",
+      "ubiquitous"
+    ],
+    "min_duration_seconds": 60,
+    "max_duration_seconds": 120,
+    "topic_tags": [
+      38,
+      39,
+      40
+    ]
+  }
+},
+{
+  "model": "exercises.exercise",
+  "pk": 15,
+  "fields": {
+    "created_at": "2026-09-16T06:09:39.929Z",
+    "updated_at": "2026-09-16T06:09:39.929Z",
+    "language": 1,
+    "title": "Philosophical Inquiry: Determinism vs Agency",
+    "prompt_text": "Elucidate the philosophical debate between strict causal determinism and moral agency in modern neuroscience. Synthesize nuanced viewpoints with rhetorical clarity.",
+    "skill_focus": "mixed",
+    "cefr_level": "C2",
+    "source": "static",
+    "vocabulary_hints": [
+      "epistemology",
+      "determinism",
+      "agency",
+      "neurobiology",
+      "phenomenology",
+      "contingent",
+      "indispensable"
+    ],
+    "min_duration_seconds": 60,
+    "max_duration_seconds": 120,
+    "topic_tags": [
+      43,
+      42,
+      41
+    ]
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "0219c725-c7a2-4f08-bde9-ce035f007e53",
+  "fields": {
+    "created_at": "2026-09-28T07:51:10.644Z",
+    "updated_at": "2026-09-28T07:51:10.679Z",
+    "user_language": 11,
+    "exercise": 12,
+    "session_title": "Overcoming Professional Adversity",
+    "is_active": true,
+    "conversation_summary": "",
+    "turn_counter": 1,
+    "snapshot_prompt_text": "Reflect on a setback you experienced. Discuss how resilience and emotional intelligence enabled you to rebound and grow."
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "12f2fe46-f20f-4c29-8728-e1ad72245ff4",
+  "fields": {
+    "created_at": "2026-09-28T12:21:15.047Z",
+    "updated_at": "2026-09-28T12:21:15.087Z",
+    "user_language": 11,
+    "exercise": 6,
+    "session_title": "Future Plans and Goals",
+    "is_active": true,
+    "conversation_summary": "",
+    "turn_counter": 1,
+    "snapshot_prompt_text": "Explain what you are planning to achieve over the next six months in your studies or personal life."
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "5593b44a-cdf4-4ba6-b3b6-28259f43b1a1",
+  "fields": {
+    "created_at": "2026-09-22T17:25:21.368Z",
+    "updated_at": "2026-09-27T15:27:25.741Z",
+    "user_language": 11,
+    "exercise": 9,
+    "session_title": "Impact of Social Media on Friendships",
+    "is_active": false,
+    "conversation_summary": "Roleplay scenario completed successfully with 4 user turns.",
+    "turn_counter": 7,
+    "snapshot_prompt_text": "Share your perspective on whether social media has made people feel more connected or more isolated. Give specific examples."
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "5cbc9ebc-cb4e-4855-b9f5-d0bc347bab8e",
+  "fields": {
+    "created_at": "2026-09-28T11:58:09.845Z",
+    "updated_at": "2026-09-28T12:08:23.077Z",
+    "user_language": 11,
+    "exercise": null,
+    "session_title": "The Ethics of Artificial Intelligence Debate",
+    "is_active": true,
+    "conversation_summary": "",
+    "turn_counter": 3,
+    "snapshot_prompt_text": "Welcome to our colloquium. Today we are critically examining autonomous generative systems. In your assessment, who should bear legal and moral accountability when an AI agent outputs harmful misinformation or infringes copyright?"
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "5e0ae1fd-b2ee-4999-88a8-43035bc34307",
+  "fields": {
+    "created_at": "2026-09-26T16:11:04.871Z",
+    "updated_at": "2026-09-26T16:11:04.897Z",
+    "user_language": 11,
+    "exercise": 8,
+    "session_title": "Handling a Difficult Customer or Situation",
+    "is_active": true,
+    "conversation_summary": "",
+    "turn_counter": 1,
+    "snapshot_prompt_text": "Describe a situation where you faced an unexpected challenge or misunderstanding. How did you resolve it?"
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "75cd33e3-102b-4c07-b0aa-c89111fea1f8",
+  "fields": {
+    "created_at": "2026-09-27T16:16:27.466Z",
+    "updated_at": "2026-09-27T16:16:27.507Z",
+    "user_language": 11,
+    "exercise": 7,
+    "session_title": "Remote Work vs Office Work",
+    "is_active": true,
+    "conversation_summary": "",
+    "turn_counter": 1,
+    "snapshot_prompt_text": "Discuss the advantages and disadvantages of working remotely compared to working in a traditional office. Conclude with your personal preference."
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "8c64ac4a-f524-4a48-bd46-afe2051f2985",
+  "fields": {
+    "created_at": "2026-09-27T15:30:13.058Z",
+    "updated_at": "2026-09-27T15:30:13.092Z",
+    "user_language": 11,
+    "exercise": 7,
+    "session_title": "Remote Work vs Office Work",
+    "is_active": true,
+    "conversation_summary": "",
+    "turn_counter": 1,
+    "snapshot_prompt_text": "Discuss the advantages and disadvantages of working remotely compared to working in a traditional office. Conclude with your personal preference."
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "97f76df1-d99a-428f-b59a-a4cd40ab7e54",
+  "fields": {
+    "created_at": "2026-09-28T10:30:29.967Z",
+    "updated_at": "2026-09-28T10:30:29.994Z",
+    "user_language": 11,
+    "exercise": 10,
+    "session_title": "Artificial Intelligence in Everyday Life",
+    "is_active": true,
+    "conversation_summary": "",
+    "turn_counter": 1,
+    "snapshot_prompt_text": "Analyze how artificial intelligence is transforming education and modern jobs. Weigh the efficiency benefits against ethical concerns."
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "9d504cb4-d4cd-490b-ae26-36ec87943b99",
+  "fields": {
+    "created_at": "2026-09-28T06:45:09.888Z",
+    "updated_at": "2026-09-28T06:47:22.660Z",
+    "user_language": 11,
+    "exercise": null,
+    "session_title": "Free Conversation",
+    "is_active": true,
+    "conversation_summary": "",
+    "turn_counter": 5,
+    "snapshot_prompt_text": "Hey there! Welcome to free conversation mode. This is your space to practice speaking naturally about anything you like. We could talk about your day, your hobbies, a movie you watched recently, current events, or anything else on your mind. What would you like to chat about today?"
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "b9bcd0c3-8b7f-4ddd-8b51-deadcc221a84",
+  "fields": {
+    "created_at": "2026-09-27T16:11:50.418Z",
+    "updated_at": "2026-09-27T16:11:50.440Z",
+    "user_language": 11,
+    "exercise": 7,
+    "session_title": "Remote Work vs Office Work",
+    "is_active": true,
+    "conversation_summary": "",
+    "turn_counter": 1,
+    "snapshot_prompt_text": "Discuss the advantages and disadvantages of working remotely compared to working in a traditional office. Conclude with your personal preference."
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "cc58ec66-9b1d-410e-9be2-2114e3ab1318",
+  "fields": {
+    "created_at": "2026-09-22T17:22:28.239Z",
+    "updated_at": "2026-09-22T17:22:28.254Z",
+    "user_language": 11,
+    "exercise": null,
+    "session_title": "Software Developer Job Interview",
+    "is_active": true,
+    "conversation_summary": "",
+    "turn_counter": 1,
+    "snapshot_prompt_text": "Hello and welcome! Thank you for taking the time to speak with me today. To begin our conversation, could you briefly introduce yourself and tell me about a recent technical project you worked on?"
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "d1ae0f9f-27e7-41b6-ba5f-71aa128c1634",
+  "fields": {
+    "created_at": "2026-09-28T09:55:31.349Z",
+    "updated_at": "2026-09-28T09:55:31.373Z",
+    "user_language": 11,
+    "exercise": 11,
+    "session_title": "Urban Sustainability and Green Cities",
+    "is_active": true,
+    "conversation_summary": "",
+    "turn_counter": 1,
+    "snapshot_prompt_text": "Propose three pragmatic initiatives that municipal governments should implement to reduce carbon emissions and improve urban living conditions."
+  }
+},
+{
+  "model": "recordings.conversationsession",
+  "pk": "e30b1bed-9624-4442-b250-0bd32b6eaba6",
+  "fields": {
+    "created_at": "2026-09-28T12:31:41.507Z",
+    "updated_at": "2026-09-28T12:31:41.554Z",
+    "user_language": 11,
+    "exercise": 4,
+    "session_title": "A Memorable Weekend Trip",
+    "is_active": true,
+    "conversation_summary": "",
+    "turn_counter": 1,
+    "snapshot_prompt_text": "Tell a short story about a trip or weekend outing you took recently. Use past tense verbs to explain where you went and what happened."
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-22T17:22:28.263Z",
+    "updated_at": "2026-09-22T17:22:28.263Z",
+    "session": "cc58ec66-9b1d-410e-9be2-2114e3ab1318",
+    "role": "agent",
+    "turn_sequence": 1,
+    "text_content": "Hello and welcome! Thank you for taking the time to speak with me today. To begin our conversation, could you briefly introduce yourself and tell me about a recent technical project you worked on?",
+    "llm_model_version": "fluentflow-dialogue-v1",
+    "latency_ms": 120,
+    "input_tokens": 95,
+    "output_tokens": 55
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-22T17:25:21.456Z",
+    "updated_at": "2026-09-22T17:25:22.514Z",
+    "session": "5593b44a-cdf4-4ba6-b3b6-28259f43b1a1",
+    "role": "user",
+    "turn_sequence": 1,
+    "text_content": "Practicing spoken English every day builds confidence and clarity. I believe regular communication is the most effective approach to language mastery.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-26T16:11:04.909Z",
+    "updated_at": "2026-09-26T16:11:05.600Z",
+    "session": "5e0ae1fd-b2ee-4999-88a8-43035bc34307",
+    "role": "user",
+    "turn_sequence": 1,
+    "text_content": "Practicing spoken English every day builds confidence and fluency.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-09-27T15:24:54.805Z",
+    "updated_at": "2026-09-27T15:25:01.982Z",
+    "session": "5593b44a-cdf4-4ba6-b3b6-28259f43b1a1",
+    "role": "user",
+    "turn_sequence": 2,
+    "text_content": "Practicing spoken English every day builds confidence and fluency.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-09-27T15:25:04.536Z",
+    "updated_at": "2026-09-27T15:25:04.536Z",
+    "session": "5593b44a-cdf4-4ba6-b3b6-28259f43b1a1",
+    "role": "agent",
+    "turn_sequence": 3,
+    "text_content": "Excellent reflection. Looking forward, how do you continuously keep your technical skills sharp in such a fast-evolving industry?",
+    "llm_model_version": "fluentflow-dialogue-fallback",
+    "latency_ms": 95,
+    "input_tokens": 85,
+    "output_tokens": 45
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-09-27T15:26:22.517Z",
+    "updated_at": "2026-09-27T15:26:31.789Z",
+    "session": "5593b44a-cdf4-4ba6-b3b6-28259f43b1a1",
+    "role": "user",
+    "turn_sequence": 4,
+    "text_content": "Practicing spoken English every day builds confidence and fluency.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-09-27T15:26:33.948Z",
+    "updated_at": "2026-09-27T15:26:33.948Z",
+    "session": "5593b44a-cdf4-4ba6-b3b6-28259f43b1a1",
+    "role": "agent",
+    "turn_sequence": 5,
+    "text_content": "Thank you for sharing your journey. Do you have any questions for me about our engineering culture, development velocity, or roadmap?",
+    "llm_model_version": "fluentflow-dialogue-fallback",
+    "latency_ms": 95,
+    "input_tokens": 85,
+    "output_tokens": 45
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 8,
+  "fields": {
+    "created_at": "2026-09-27T15:27:17.340Z",
+    "updated_at": "2026-09-27T15:27:23.115Z",
+    "session": "5593b44a-cdf4-4ba6-b3b6-28259f43b1a1",
+    "role": "user",
+    "turn_sequence": 6,
+    "text_content": "Practicing spoken English every day builds confidence and fluency.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 9,
+  "fields": {
+    "created_at": "2026-09-27T15:27:25.731Z",
+    "updated_at": "2026-09-27T15:27:25.731Z",
+    "session": "5593b44a-cdf4-4ba6-b3b6-28259f43b1a1",
+    "role": "agent",
+    "turn_sequence": 7,
+    "text_content": "It was a genuine pleasure speaking with you today! Your structured explanations, vocabulary choices, and steady pacing demonstrated solid professional communication. Our talent team will follow up shortly.",
+    "llm_model_version": "fluentflow-dialogue-fallback",
+    "latency_ms": 95,
+    "input_tokens": 85,
+    "output_tokens": 45
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 10,
+  "fields": {
+    "created_at": "2026-09-27T15:30:13.109Z",
+    "updated_at": "2026-09-27T15:30:21.619Z",
+    "session": "8c64ac4a-f524-4a48-bd46-afe2051f2985",
+    "role": "user",
+    "turn_sequence": 1,
+    "text_content": "Practicing spoken English every day builds confidence and fluency.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 11,
+  "fields": {
+    "created_at": "2026-09-27T16:11:50.465Z",
+    "updated_at": "2026-09-27T16:12:56.506Z",
+    "session": "b9bcd0c3-8b7f-4ddd-8b51-deadcc221a84",
+    "role": "user",
+    "turn_sequence": 1,
+    "text_content": "I have been working on developing my spoken English communication skills and professional vocabulary.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 12,
+  "fields": {
+    "created_at": "2026-09-27T16:16:27.524Z",
+    "updated_at": "2026-09-27T16:18:21.057Z",
+    "session": "75cd33e3-102b-4c07-b0aa-c89111fea1f8",
+    "role": "user",
+    "turn_sequence": 1,
+    "text_content": "In my previous project, I collaborated closely with cross-functional teams to deliver scalable software solutions.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 13,
+  "fields": {
+    "created_at": "2026-09-28T06:45:09.913Z",
+    "updated_at": "2026-09-28T06:45:09.914Z",
+    "session": "9d504cb4-d4cd-490b-ae26-36ec87943b99",
+    "role": "agent",
+    "turn_sequence": 1,
+    "text_content": "Hey there! Welcome to free conversation mode. This is your space to practice speaking naturally about anything you like. We could talk about your day, your hobbies, a movie you watched recently, current events, or anything else on your mind. What would you like to chat about today?",
+    "llm_model_version": "fluentflow-dialogue-v1",
+    "latency_ms": 120,
+    "input_tokens": 95,
+    "output_tokens": 55
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 14,
+  "fields": {
+    "created_at": "2026-09-28T06:45:58.491Z",
+    "updated_at": "2026-09-28T06:46:13.087Z",
+    "session": "9d504cb4-d4cd-490b-ae26-36ec87943b99",
+    "role": "user",
+    "turn_sequence": 2,
+    "text_content": "I enjoy discussing technological innovation, machine learning advancements, and language learning strategies.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 15,
+  "fields": {
+    "created_at": "2026-09-28T06:46:23.990Z",
+    "updated_at": "2026-09-28T06:46:23.990Z",
+    "session": "9d504cb4-d4cd-490b-ae26-36ec87943b99",
+    "role": "agent",
+    "turn_sequence": 3,
+    "text_content": "That's really interesting! Tell me more about that — what got you into it in the first place?",
+    "llm_model_version": "fluentflow-dialogue-fallback",
+    "latency_ms": 95,
+    "input_tokens": 85,
+    "output_tokens": 45
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 16,
+  "fields": {
+    "created_at": "2026-09-28T06:47:02.990Z",
+    "updated_at": "2026-09-28T06:47:17.958Z",
+    "session": "9d504cb4-d4cd-490b-ae26-36ec87943b99",
+    "role": "user",
+    "turn_sequence": 4,
+    "text_content": "I have been working on developing my spoken English communication skills and professional vocabulary.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 17,
+  "fields": {
+    "created_at": "2026-09-28T06:47:22.683Z",
+    "updated_at": "2026-09-28T06:47:22.683Z",
+    "session": "9d504cb4-d4cd-490b-ae26-36ec87943b99",
+    "role": "agent",
+    "turn_sequence": 5,
+    "text_content": "I love hearing your perspective on this. How has this experience shaped the way you think about things?",
+    "llm_model_version": "fluentflow-dialogue-fallback",
+    "latency_ms": 95,
+    "input_tokens": 85,
+    "output_tokens": 45
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 18,
+  "fields": {
+    "created_at": "2026-09-28T07:51:10.708Z",
+    "updated_at": "2026-09-28T10:25:27.111Z",
+    "session": "0219c725-c7a2-4f08-bde9-ce035f007e53",
+    "role": "user",
+    "turn_sequence": 1,
+    "text_content": "Okay, so I was doing a project and there was some exceptionally large things that couldn't be managed and couldn't be specified otherwise. So in the end I couldn't even do the project because I didn't have the resources. So, yeah, it was a pretty good setback, but I at that time I used my perseverance and emotional intelligence, and I thought that rejection is a redirection, and this changed my perspective, and kind of use the growth mindset in me and yeah, that's it.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 19,
+  "fields": {
+    "created_at": "2026-09-28T09:55:31.385Z",
+    "updated_at": "2026-09-28T09:58:08.333Z",
+    "session": "d1ae0f9f-27e7-41b6-ba5f-71aa128c1634",
+    "role": "user",
+    "turn_sequence": 1,
+    "text_content": "I believe that effective communication and regular practice are key factors for career growth.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 20,
+  "fields": {
+    "created_at": "2026-09-28T10:30:30.009Z",
+    "updated_at": "2026-09-28T10:31:25.396Z",
+    "session": "97f76df1-d99a-428f-b59a-a4cd40ab7e54",
+    "role": "user",
+    "turn_sequence": 1,
+    "text_content": "Well, first of all, artificial intelligence has automated the education and modern jobs. It has fully automated the repetitive task and everything without any disruption. But there's a huge ethical dilemma in compared to efficiency versus legitimacy or authenticity. While AI can do automations, it needs human acceptance. You know, at the end of the day, a human has to accept the AI generated output. So, it really is an augmentation instead of replacement. And yeah, that's pretty good.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 27,
+  "fields": {
+    "created_at": "2026-09-28T11:58:09.888Z",
+    "updated_at": "2026-09-28T11:58:09.888Z",
+    "session": "5cbc9ebc-cb4e-4855-b9f5-d0bc347bab8e",
+    "role": "agent",
+    "turn_sequence": 1,
+    "text_content": "Welcome to our colloquium. Today we are critically examining autonomous generative systems. In your assessment, who should bear legal and moral accountability when an AI agent outputs harmful misinformation or infringes copyright?",
+    "llm_model_version": "fluentflow-dialogue-v1",
+    "latency_ms": 120,
+    "input_tokens": 95,
+    "output_tokens": 55
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 28,
+  "fields": {
+    "created_at": "2026-09-28T11:59:34.067Z",
+    "updated_at": "2026-09-28T13:26:13.860Z",
+    "session": "5cbc9ebc-cb4e-4855-b9f5-d0bc347bab8e",
+    "role": "user",
+    "turn_sequence": 2,
+    "text_content": "Well, this is a real issue in nowadays because every company is using AI in their workflow. So the accountability matters in this scenario and it matters even more nowadays. So I, in my opinion, the person who's in charge of developing that technology using AI, a person or a person who is supervising AI agents' output should be the one that should be accountable for the outcomes.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 29,
+  "fields": {
+    "created_at": "2026-09-28T12:08:23.099Z",
+    "updated_at": "2026-09-28T12:08:23.099Z",
+    "session": "5cbc9ebc-cb4e-4855-b9f5-d0bc347bab8e",
+    "role": "agent",
+    "turn_sequence": 3,
+    "text_content": "Fascinating perspective; placing the burden directly on the developers and human supervisors certainly grounds liability in traditional frameworks. However, when these neural networks operate as autonomous black boxes—learning and adapting far beyond their initial programming—do you not think it becomes nearly impossible to trace a harmful output back to a single human decision? How would you propose holding a supervisor accountable for an emergent behavior they could neither predict nor fully understand?",
+    "llm_model_version": "gemini-flash-lite-latest",
+    "latency_ms": 95280,
+    "input_tokens": 650,
+    "output_tokens": 83
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 30,
+  "fields": {
+    "created_at": "2026-09-28T12:21:15.120Z",
+    "updated_at": "2026-09-28T12:22:12.486Z",
+    "session": "12f2fe46-f20f-4c29-8728-e1ad72245ff4",
+    "role": "user",
+    "turn_sequence": 1,
+    "text_content": "Well, first of all, I am going to uh my target is to achieve something uh paid a paid role or something like that, or and I hope that I get something like that. And also, in my personal life, I want to improve my living condition and have a better schedule to manage all the things.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.conversationturn",
+  "pk": 31,
+  "fields": {
+    "created_at": "2026-09-28T12:31:41.569Z",
+    "updated_at": "2026-09-28T12:40:54.755Z",
+    "session": "e30b1bed-9624-4442-b250-0bd32b6eaba6",
+    "role": "user",
+    "turn_sequence": 1,
+    "text_content": "Okay, so last Sunday we went to our farm and we visited our farm and did some work there. We have trees and we kind of did the cleaning there and then we arrived at a place near the farm where there is a lake and it was a beautiful scenery. So, and also the weather was pretty good. We enjoyed sometime there and then we returned to back to our hotel.",
+    "llm_model_version": null,
+    "latency_ms": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-22T17:25:21.472Z",
+    "updated_at": "2026-09-22T17:25:22.520Z",
+    "turn": 2,
+    "audio_file": "recordings/2026/09/22/recording.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 74.0,
+    "file_size_bytes": 1199084,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-26T16:11:04.931Z",
+    "updated_at": "2026-09-26T16:11:05.600Z",
+    "turn": 3,
+    "audio_file": "recordings/2026/09/26/recording.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 62.0,
+    "file_size_bytes": 1016839,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-27T15:24:54.833Z",
+    "updated_at": "2026-09-27T15:25:01.982Z",
+    "turn": 4,
+    "audio_file": "recordings/2026/09/27/turn_reply.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 22.0,
+    "file_size_bytes": 362629,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-09-27T15:26:22.548Z",
+    "updated_at": "2026-09-27T15:26:31.789Z",
+    "turn": 6,
+    "audio_file": "recordings/2026/09/27/turn_reply_CBI9KRt.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 26.0,
+    "file_size_bytes": 425627,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-09-27T15:27:17.369Z",
+    "updated_at": "2026-09-27T15:27:23.115Z",
+    "turn": 8,
+    "audio_file": "recordings/2026/09/27/turn_reply_6dHFuRi.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 11.0,
+    "file_size_bytes": 191087,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-09-27T15:30:13.131Z",
+    "updated_at": "2026-09-27T15:30:21.619Z",
+    "turn": 10,
+    "audio_file": "recordings/2026/09/27/recording.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 77.0,
+    "file_size_bytes": 1250452,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-09-27T16:11:50.486Z",
+    "updated_at": "2026-09-27T16:12:56.508Z",
+    "turn": 11,
+    "audio_file": "recordings/2026/09/27/recording_Sq4VRBA.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 62.0,
+    "file_size_bytes": 1008113,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 8,
+  "fields": {
+    "created_at": "2026-09-27T16:16:27.552Z",
+    "updated_at": "2026-09-27T16:18:21.058Z",
+    "turn": 12,
+    "audio_file": "recordings/2026/09/27/recording_edmhcSS.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 45.0,
+    "file_size_bytes": 736737,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 9,
+  "fields": {
+    "created_at": "2026-09-28T06:45:58.514Z",
+    "updated_at": "2026-09-28T06:46:13.088Z",
+    "turn": 14,
+    "audio_file": "recordings/2026/09/28/turn_reply.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 6.0,
+    "file_size_bytes": 99979,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 10,
+  "fields": {
+    "created_at": "2026-09-28T06:47:03.011Z",
+    "updated_at": "2026-09-28T06:47:17.959Z",
+    "turn": 16,
+    "audio_file": "recordings/2026/09/28/turn_reply_fpUD5a2.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 9.0,
+    "file_size_bytes": 157165,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 11,
+  "fields": {
+    "created_at": "2026-09-28T07:51:10.743Z",
+    "updated_at": "2026-09-28T10:25:27.112Z",
+    "turn": 18,
+    "audio_file": "recordings/2026/09/28/recording.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 70.0,
+    "file_size_bytes": 1134124,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 12,
+  "fields": {
+    "created_at": "2026-09-28T09:55:31.406Z",
+    "updated_at": "2026-09-28T09:58:08.334Z",
+    "turn": 19,
+    "audio_file": "recordings/2026/09/28/recording_aW6YCR6.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 83.0,
+    "file_size_bytes": 1345460,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 13,
+  "fields": {
+    "created_at": "2026-09-28T10:30:30.046Z",
+    "updated_at": "2026-09-28T10:31:25.397Z",
+    "turn": 20,
+    "audio_file": "recordings/2026/09/28/recording_jVO9oU5.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 68.0,
+    "file_size_bytes": 1113770,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 20,
+  "fields": {
+    "created_at": "2026-09-28T11:59:34.090Z",
+    "updated_at": "2026-09-28T13:26:13.861Z",
+    "turn": 28,
+    "audio_file": "recordings/2026/09/28/turn_reply_QmenQ3s.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 44.0,
+    "file_size_bytes": 725113,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 21,
+  "fields": {
+    "created_at": "2026-09-28T12:21:15.157Z",
+    "updated_at": "2026-09-28T12:22:12.487Z",
+    "turn": 30,
+    "audio_file": "recordings/2026/09/28/recording_cDyeM6Y.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 32.0,
+    "file_size_bytes": 528359,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.recording",
+  "pk": 22,
+  "fields": {
+    "created_at": "2026-09-28T12:31:41.592Z",
+    "updated_at": "2026-09-28T12:40:54.757Z",
+    "turn": 31,
+    "audio_file": "recordings/2026/09/28/recording_YWNfabx.webm",
+    "mime_type": "audio/webm",
+    "duration_seconds": 47.0,
+    "file_size_bytes": 764847,
+    "status": "analyzed",
+    "error_message": ""
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-22T17:25:22.499Z",
+    "updated_at": "2026-09-22T17:25:22.499Z",
+    "recording": 1,
+    "is_current": true,
+    "estimated_cefr": "B1",
+    "grammar_feedback": {
+      "overall_score": 85,
+      "strengths": [
+        "Accurate sentence construction and logical flow of ideas.",
+        "Consistent subject-verb agreement across complex phrasing."
+      ],
+      "corrections": [
+        {
+          "original": "I have went to several conferences last year.",
+          "corrected": "I went to several conferences last year.",
+          "explanation": "Use the simple past 'went' rather than present perfect 'have went' when specifying completed past time intervals."
+        }
+      ]
+    },
+    "vocabulary_feedback": {
+      "overall_score": 82,
+      "advanced_words_used": [
+        "furthermore",
+        "perspective",
+        "articulate",
+        "beneficial"
+      ],
+      "suggestions": [
+        {
+          "word": "good",
+          "alternatives": [
+            "exemplary",
+            "constructive",
+            "insightful"
+          ],
+          "context": "Expand your vocabulary depth by choosing contextually rich adjectives."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 122,
+      "pause_count": 9,
+      "avg_pause_ms": 430,
+      "filler_count": 5
+    },
+    "word_timestamps": [
+      {
+        "word": "Practicing",
+        "start_offset": 0.2,
+        "end_offset": 0.7
+      },
+      {
+        "word": "spoken",
+        "start_offset": 0.8,
+        "end_offset": 1.1
+      },
+      {
+        "word": "English",
+        "start_offset": 1.2,
+        "end_offset": 1.6
+      },
+      {
+        "word": "every",
+        "start_offset": 1.7,
+        "end_offset": 1.9
+      },
+      {
+        "word": "day",
+        "start_offset": 2.0,
+        "end_offset": 2.3
+      },
+      {
+        "word": "builds",
+        "start_offset": 2.4,
+        "end_offset": 2.7
+      },
+      {
+        "word": "confidence",
+        "start_offset": 2.8,
+        "end_offset": 3.4
+      }
+    ],
+    "asr_model_version": "whisper-large-v3",
+    "llm_model_version": "gemini-1.5-flash",
+    "prompt_version": "v1.2-fluency-eval",
+    "latency_asr_ms": 340,
+    "latency_llm_ms": 620,
+    "input_tokens": 280,
+    "output_tokens": 195,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-1.5-flash"
+    },
+    "weakness_tags": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-26T16:11:05.584Z",
+    "updated_at": "2026-09-26T16:11:05.584Z",
+    "recording": 2,
+    "is_current": true,
+    "estimated_cefr": "B1",
+    "grammar_feedback": {
+      "overall_score": 85,
+      "strengths": [
+        "Clear sentence structure and logical phrasing.",
+        "Appropriate vocabulary choice for context."
+      ],
+      "corrections": [
+        {
+          "original": "I have went there yesterday.",
+          "corrected": "I went there yesterday.",
+          "explanation": "Use simple past 'went' rather than present perfect when specifying completed past time intervals.",
+          "rule_tag": "Past Tense"
+        }
+      ]
+    },
+    "vocabulary_feedback": {
+      "overall_score": 82,
+      "advanced_words_used": [
+        "confidence",
+        "fluency",
+        "regularly",
+        "effective"
+      ],
+      "suggestions": [
+        {
+          "word": "good",
+          "alternatives": [
+            "exemplary",
+            "constructive",
+            "insightful"
+          ],
+          "context": "Broaden lexical precision by choosing context-specific descriptive adjectives."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 30,
+      "pause_count": 0,
+      "avg_pause_ms": 0,
+      "longest_pause_ms": 0,
+      "filler_count": 0,
+      "word_count": 9,
+      "speaking_duration": 62.0
+    },
+    "word_timestamps": [
+      {
+        "word": "Practicing",
+        "start_offset": 0.3,
+        "end_offset": 0.9
+      },
+      {
+        "word": "spoken",
+        "start_offset": 1.0,
+        "end_offset": 1.4
+      },
+      {
+        "word": "English",
+        "start_offset": 1.5,
+        "end_offset": 1.9
+      },
+      {
+        "word": "every",
+        "start_offset": 2.1,
+        "end_offset": 2.4
+      },
+      {
+        "word": "day",
+        "start_offset": 2.5,
+        "end_offset": 2.8
+      },
+      {
+        "word": "builds",
+        "start_offset": 3.0,
+        "end_offset": 3.4
+      },
+      {
+        "word": "confidence",
+        "start_offset": 3.6,
+        "end_offset": 4.2
+      },
+      {
+        "word": "and",
+        "start_offset": 4.3,
+        "end_offset": 4.5
+      },
+      {
+        "word": "fluency",
+        "start_offset": 4.6,
+        "end_offset": 5.2
+      }
+    ],
+    "asr_model_version": "gemini-2.5-flash-simulated",
+    "llm_model_version": "gemini-2.5-flash-simulated",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 150,
+    "latency_llm_ms": 180,
+    "input_tokens": 400,
+    "output_tokens": 235,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-2.5-flash-simulated"
+    },
+    "weakness_tags": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-27T15:25:01.967Z",
+    "updated_at": "2026-09-27T15:25:01.967Z",
+    "recording": 3,
+    "is_current": true,
+    "estimated_cefr": "B1",
+    "grammar_feedback": {
+      "overall_score": 85,
+      "strengths": [
+        "Clear sentence structure and logical phrasing.",
+        "Appropriate vocabulary choice for context."
+      ],
+      "corrections": [
+        {
+          "original": "I have went there yesterday.",
+          "corrected": "I went there yesterday.",
+          "explanation": "Use simple past 'went' rather than present perfect when specifying completed past time intervals.",
+          "rule_tag": "Past Tense"
+        }
+      ]
+    },
+    "vocabulary_feedback": {
+      "overall_score": 82,
+      "advanced_words_used": [
+        "confidence",
+        "fluency",
+        "regularly",
+        "effective"
+      ],
+      "suggestions": [
+        {
+          "word": "good",
+          "alternatives": [
+            "exemplary",
+            "constructive",
+            "insightful"
+          ],
+          "context": "Broaden lexical precision by choosing context-specific descriptive adjectives."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 30,
+      "pause_count": 0,
+      "avg_pause_ms": 0,
+      "longest_pause_ms": 0,
+      "filler_count": 0,
+      "word_count": 9,
+      "speaking_duration": 22.0
+    },
+    "word_timestamps": [
+      {
+        "word": "Practicing",
+        "start_offset": 0.3,
+        "end_offset": 0.9
+      },
+      {
+        "word": "spoken",
+        "start_offset": 1.0,
+        "end_offset": 1.4
+      },
+      {
+        "word": "English",
+        "start_offset": 1.5,
+        "end_offset": 1.9
+      },
+      {
+        "word": "every",
+        "start_offset": 2.1,
+        "end_offset": 2.4
+      },
+      {
+        "word": "day",
+        "start_offset": 2.5,
+        "end_offset": 2.8
+      },
+      {
+        "word": "builds",
+        "start_offset": 3.0,
+        "end_offset": 3.4
+      },
+      {
+        "word": "confidence",
+        "start_offset": 3.6,
+        "end_offset": 4.2
+      },
+      {
+        "word": "and",
+        "start_offset": 4.3,
+        "end_offset": 4.5
+      },
+      {
+        "word": "fluency",
+        "start_offset": 4.6,
+        "end_offset": 5.2
+      }
+    ],
+    "asr_model_version": "gemini-2.5-flash-simulated",
+    "llm_model_version": "gemini-2.5-flash-simulated",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 150,
+    "latency_llm_ms": 180,
+    "input_tokens": 400,
+    "output_tokens": 235,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-2.5-flash-simulated"
+    },
+    "weakness_tags": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-09-27T15:26:31.772Z",
+    "updated_at": "2026-09-27T15:26:31.772Z",
+    "recording": 4,
+    "is_current": true,
+    "estimated_cefr": "B1",
+    "grammar_feedback": {
+      "overall_score": 85,
+      "strengths": [
+        "Clear sentence structure and logical phrasing.",
+        "Appropriate vocabulary choice for context."
+      ],
+      "corrections": [
+        {
+          "original": "I have went there yesterday.",
+          "corrected": "I went there yesterday.",
+          "explanation": "Use simple past 'went' rather than present perfect when specifying completed past time intervals.",
+          "rule_tag": "Past Tense"
+        }
+      ]
+    },
+    "vocabulary_feedback": {
+      "overall_score": 82,
+      "advanced_words_used": [
+        "confidence",
+        "fluency",
+        "regularly",
+        "effective"
+      ],
+      "suggestions": [
+        {
+          "word": "good",
+          "alternatives": [
+            "exemplary",
+            "constructive",
+            "insightful"
+          ],
+          "context": "Broaden lexical precision by choosing context-specific descriptive adjectives."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 30,
+      "pause_count": 0,
+      "avg_pause_ms": 0,
+      "longest_pause_ms": 0,
+      "filler_count": 0,
+      "word_count": 9,
+      "speaking_duration": 26.0
+    },
+    "word_timestamps": [
+      {
+        "word": "Practicing",
+        "start_offset": 0.3,
+        "end_offset": 0.9
+      },
+      {
+        "word": "spoken",
+        "start_offset": 1.0,
+        "end_offset": 1.4
+      },
+      {
+        "word": "English",
+        "start_offset": 1.5,
+        "end_offset": 1.9
+      },
+      {
+        "word": "every",
+        "start_offset": 2.1,
+        "end_offset": 2.4
+      },
+      {
+        "word": "day",
+        "start_offset": 2.5,
+        "end_offset": 2.8
+      },
+      {
+        "word": "builds",
+        "start_offset": 3.0,
+        "end_offset": 3.4
+      },
+      {
+        "word": "confidence",
+        "start_offset": 3.6,
+        "end_offset": 4.2
+      },
+      {
+        "word": "and",
+        "start_offset": 4.3,
+        "end_offset": 4.5
+      },
+      {
+        "word": "fluency",
+        "start_offset": 4.6,
+        "end_offset": 5.2
+      }
+    ],
+    "asr_model_version": "gemini-2.5-flash-simulated",
+    "llm_model_version": "gemini-2.5-flash-simulated",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 150,
+    "latency_llm_ms": 180,
+    "input_tokens": 400,
+    "output_tokens": 235,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-2.5-flash-simulated"
+    },
+    "weakness_tags": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-09-27T15:27:23.104Z",
+    "updated_at": "2026-09-27T15:27:23.104Z",
+    "recording": 5,
+    "is_current": true,
+    "estimated_cefr": "B1",
+    "grammar_feedback": {
+      "overall_score": 85,
+      "strengths": [
+        "Clear sentence structure and logical phrasing.",
+        "Appropriate vocabulary choice for context."
+      ],
+      "corrections": [
+        {
+          "original": "I have went there yesterday.",
+          "corrected": "I went there yesterday.",
+          "explanation": "Use simple past 'went' rather than present perfect when specifying completed past time intervals.",
+          "rule_tag": "Past Tense"
+        }
+      ]
+    },
+    "vocabulary_feedback": {
+      "overall_score": 82,
+      "advanced_words_used": [
+        "confidence",
+        "fluency",
+        "regularly",
+        "effective"
+      ],
+      "suggestions": [
+        {
+          "word": "good",
+          "alternatives": [
+            "exemplary",
+            "constructive",
+            "insightful"
+          ],
+          "context": "Broaden lexical precision by choosing context-specific descriptive adjectives."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 49,
+      "pause_count": 0,
+      "avg_pause_ms": 0,
+      "longest_pause_ms": 0,
+      "filler_count": 0,
+      "word_count": 9,
+      "speaking_duration": 11.0
+    },
+    "word_timestamps": [
+      {
+        "word": "Practicing",
+        "start_offset": 0.3,
+        "end_offset": 0.9
+      },
+      {
+        "word": "spoken",
+        "start_offset": 1.0,
+        "end_offset": 1.4
+      },
+      {
+        "word": "English",
+        "start_offset": 1.5,
+        "end_offset": 1.9
+      },
+      {
+        "word": "every",
+        "start_offset": 2.1,
+        "end_offset": 2.4
+      },
+      {
+        "word": "day",
+        "start_offset": 2.5,
+        "end_offset": 2.8
+      },
+      {
+        "word": "builds",
+        "start_offset": 3.0,
+        "end_offset": 3.4
+      },
+      {
+        "word": "confidence",
+        "start_offset": 3.6,
+        "end_offset": 4.2
+      },
+      {
+        "word": "and",
+        "start_offset": 4.3,
+        "end_offset": 4.5
+      },
+      {
+        "word": "fluency",
+        "start_offset": 4.6,
+        "end_offset": 5.2
+      }
+    ],
+    "asr_model_version": "gemini-2.5-flash-simulated",
+    "llm_model_version": "gemini-2.5-flash-simulated",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 150,
+    "latency_llm_ms": 180,
+    "input_tokens": 400,
+    "output_tokens": 235,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-2.5-flash-simulated"
+    },
+    "weakness_tags": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-09-27T15:30:21.613Z",
+    "updated_at": "2026-09-27T15:30:21.613Z",
+    "recording": 6,
+    "is_current": true,
+    "estimated_cefr": "B1",
+    "grammar_feedback": {
+      "overall_score": 85,
+      "strengths": [
+        "Clear sentence structure and logical phrasing.",
+        "Appropriate vocabulary choice for context."
+      ],
+      "corrections": [
+        {
+          "original": "I have went there yesterday.",
+          "corrected": "I went there yesterday.",
+          "explanation": "Use simple past 'went' rather than present perfect when specifying completed past time intervals.",
+          "rule_tag": "Past Tense"
+        }
+      ]
+    },
+    "vocabulary_feedback": {
+      "overall_score": 82,
+      "advanced_words_used": [
+        "confidence",
+        "fluency",
+        "regularly",
+        "effective"
+      ],
+      "suggestions": [
+        {
+          "word": "good",
+          "alternatives": [
+            "exemplary",
+            "constructive",
+            "insightful"
+          ],
+          "context": "Broaden lexical precision by choosing context-specific descriptive adjectives."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 30,
+      "pause_count": 0,
+      "avg_pause_ms": 0,
+      "longest_pause_ms": 0,
+      "filler_count": 0,
+      "word_count": 9,
+      "speaking_duration": 77.0
+    },
+    "word_timestamps": [
+      {
+        "word": "Practicing",
+        "start_offset": 0.3,
+        "end_offset": 0.9
+      },
+      {
+        "word": "spoken",
+        "start_offset": 1.0,
+        "end_offset": 1.4
+      },
+      {
+        "word": "English",
+        "start_offset": 1.5,
+        "end_offset": 1.9
+      },
+      {
+        "word": "every",
+        "start_offset": 2.1,
+        "end_offset": 2.4
+      },
+      {
+        "word": "day",
+        "start_offset": 2.5,
+        "end_offset": 2.8
+      },
+      {
+        "word": "builds",
+        "start_offset": 3.0,
+        "end_offset": 3.4
+      },
+      {
+        "word": "confidence",
+        "start_offset": 3.6,
+        "end_offset": 4.2
+      },
+      {
+        "word": "and",
+        "start_offset": 4.3,
+        "end_offset": 4.5
+      },
+      {
+        "word": "fluency",
+        "start_offset": 4.6,
+        "end_offset": 5.2
+      }
+    ],
+    "asr_model_version": "gemini-2.5-flash-simulated",
+    "llm_model_version": "gemini-2.5-flash-simulated",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 150,
+    "latency_llm_ms": 180,
+    "input_tokens": 400,
+    "output_tokens": 235,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-2.5-flash-simulated"
+    },
+    "weakness_tags": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-09-27T16:12:56.482Z",
+    "updated_at": "2026-09-27T16:12:56.482Z",
+    "recording": 7,
+    "is_current": true,
+    "estimated_cefr": "A2",
+    "grammar_feedback": {
+      "overall_score": 85,
+      "strengths": [
+        "Accurate formation of the present perfect continuous tense ('have been working').",
+        "Appropriate use of the gerund ('developing') following the preposition 'on'."
+      ],
+      "corrections": []
+    },
+    "vocabulary_feedback": {
+      "overall_score": 70,
+      "advanced_words_used": [
+        "professional vocabulary",
+        "communication skills"
+      ],
+      "suggestions": [
+        {
+          "word": "developing",
+          "alternatives": [
+            "honing",
+            "refining",
+            "cultivating"
+          ],
+          "context": "Use these alternatives to convey more precise, deliberate mastery when talking about skill improvement."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 30,
+      "pause_count": 13,
+      "avg_pause_ms": 885,
+      "longest_pause_ms": 890,
+      "filler_count": 0,
+      "word_count": 14,
+      "speaking_duration": 62.0
+    },
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start_offset": 0.2,
+        "end_offset": 3.74
+      },
+      {
+        "word": "have",
+        "start_offset": 4.63,
+        "end_offset": 8.17
+      },
+      {
+        "word": "been",
+        "start_offset": 9.06,
+        "end_offset": 12.6
+      },
+      {
+        "word": "working",
+        "start_offset": 13.49,
+        "end_offset": 17.03
+      },
+      {
+        "word": "on",
+        "start_offset": 17.91,
+        "end_offset": 21.46
+      },
+      {
+        "word": "developing",
+        "start_offset": 22.34,
+        "end_offset": 25.89
+      },
+      {
+        "word": "my",
+        "start_offset": 26.77,
+        "end_offset": 30.31
+      },
+      {
+        "word": "spoken",
+        "start_offset": 31.2,
+        "end_offset": 34.74
+      },
+      {
+        "word": "English",
+        "start_offset": 35.63,
+        "end_offset": 39.17
+      },
+      {
+        "word": "communication",
+        "start_offset": 40.06,
+        "end_offset": 43.6
+      },
+      {
+        "word": "skills",
+        "start_offset": 44.49,
+        "end_offset": 48.03
+      },
+      {
+        "word": "and",
+        "start_offset": 48.91,
+        "end_offset": 52.46
+      },
+      {
+        "word": "professional",
+        "start_offset": 53.34,
+        "end_offset": 56.89
+      },
+      {
+        "word": "vocabulary.",
+        "start_offset": 57.77,
+        "end_offset": 61.31
+      }
+    ],
+    "asr_model_version": "gemini-3.8-flash-simulated",
+    "llm_model_version": "gemini-3.8-flash",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 140,
+    "latency_llm_ms": 40431,
+    "input_tokens": 607,
+    "output_tokens": 269,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-3.8-flash"
+    },
+    "weakness_tags": [
+      4,
+      3
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 8,
+  "fields": {
+    "created_at": "2026-09-27T16:18:21.031Z",
+    "updated_at": "2026-09-27T16:18:21.031Z",
+    "recording": 8,
+    "is_current": true,
+    "estimated_cefr": "B2",
+    "grammar_feedback": {
+      "overall_score": 92,
+      "strengths": [
+        "Demonstrated solid sentence length and conversational elaboration.",
+        "Maintained high grammatical consistency with zero major syntactic errors."
+      ],
+      "corrections": []
+    },
+    "vocabulary_feedback": {
+      "overall_score": 95,
+      "advanced_words_used": [
+        "crossfunctional",
+        "collaborated",
+        "solutions",
+        "software"
+      ],
+      "suggestions": [
+        {
+          "word": "with",
+          "alternatives": [
+            "nuanced phrasing",
+            "precise terminology"
+          ],
+          "context": "Consider varying 'with' with domain-specific expressions."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 30,
+      "pause_count": 14,
+      "avg_pause_ms": 599,
+      "longest_pause_ms": 600,
+      "filler_count": 0,
+      "word_count": 15,
+      "speaking_duration": 45.0
+    },
+    "word_timestamps": [
+      {
+        "word": "In",
+        "start_offset": 0.2,
+        "end_offset": 2.6
+      },
+      {
+        "word": "my",
+        "start_offset": 3.2,
+        "end_offset": 5.6
+      },
+      {
+        "word": "previous",
+        "start_offset": 6.2,
+        "end_offset": 8.6
+      },
+      {
+        "word": "project,",
+        "start_offset": 9.2,
+        "end_offset": 11.6
+      },
+      {
+        "word": "I",
+        "start_offset": 12.2,
+        "end_offset": 14.6
+      },
+      {
+        "word": "collaborated",
+        "start_offset": 15.2,
+        "end_offset": 17.6
+      },
+      {
+        "word": "closely",
+        "start_offset": 18.2,
+        "end_offset": 20.6
+      },
+      {
+        "word": "with",
+        "start_offset": 21.2,
+        "end_offset": 23.6
+      },
+      {
+        "word": "cross-functional",
+        "start_offset": 24.2,
+        "end_offset": 26.6
+      },
+      {
+        "word": "teams",
+        "start_offset": 27.2,
+        "end_offset": 29.6
+      },
+      {
+        "word": "to",
+        "start_offset": 30.2,
+        "end_offset": 32.6
+      },
+      {
+        "word": "deliver",
+        "start_offset": 33.2,
+        "end_offset": 35.6
+      },
+      {
+        "word": "scalable",
+        "start_offset": 36.2,
+        "end_offset": 38.6
+      },
+      {
+        "word": "software",
+        "start_offset": 39.2,
+        "end_offset": 41.6
+      },
+      {
+        "word": "solutions.",
+        "start_offset": 42.2,
+        "end_offset": 44.6
+      }
+    ],
+    "asr_model_version": "gemini-3.8-flash-simulated",
+    "llm_model_version": "gemini-3.8-flash-simulated",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 140,
+    "latency_llm_ms": 160,
+    "input_tokens": 250,
+    "output_tokens": 180,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-3.8-flash-simulated"
+    },
+    "weakness_tags": [
+      5
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 9,
+  "fields": {
+    "created_at": "2026-09-28T06:46:13.067Z",
+    "updated_at": "2026-09-28T06:46:13.067Z",
+    "recording": 9,
+    "is_current": true,
+    "estimated_cefr": "B2",
+    "grammar_feedback": {
+      "overall_score": 92,
+      "strengths": [
+        "Provided a direct, understandable conversational response.",
+        "Maintained high grammatical consistency with zero major syntactic errors."
+      ],
+      "corrections": []
+    },
+    "vocabulary_feedback": {
+      "overall_score": 95,
+      "advanced_words_used": [
+        "technological",
+        "advancements",
+        "innovation",
+        "discussing"
+      ],
+      "suggestions": []
+    },
+    "fluency_metrics": {
+      "wpm": 120,
+      "pause_count": 0,
+      "avg_pause_ms": 0,
+      "longest_pause_ms": 0,
+      "filler_count": 0,
+      "word_count": 12,
+      "speaking_duration": 6.0
+    },
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start_offset": 0.2,
+        "end_offset": 0.6
+      },
+      {
+        "word": "enjoy",
+        "start_offset": 0.7,
+        "end_offset": 1.1
+      },
+      {
+        "word": "discussing",
+        "start_offset": 1.2,
+        "end_offset": 1.6
+      },
+      {
+        "word": "technological",
+        "start_offset": 1.7,
+        "end_offset": 2.1
+      },
+      {
+        "word": "innovation,",
+        "start_offset": 2.2,
+        "end_offset": 2.6
+      },
+      {
+        "word": "machine",
+        "start_offset": 2.7,
+        "end_offset": 3.1
+      },
+      {
+        "word": "learning",
+        "start_offset": 3.2,
+        "end_offset": 3.6
+      },
+      {
+        "word": "advancements,",
+        "start_offset": 3.7,
+        "end_offset": 4.1
+      },
+      {
+        "word": "and",
+        "start_offset": 4.2,
+        "end_offset": 4.6
+      },
+      {
+        "word": "language",
+        "start_offset": 4.7,
+        "end_offset": 5.1
+      },
+      {
+        "word": "learning",
+        "start_offset": 5.2,
+        "end_offset": 5.6
+      },
+      {
+        "word": "strategies.",
+        "start_offset": 5.7,
+        "end_offset": 6.0
+      }
+    ],
+    "asr_model_version": "gemini-3.8-flash-simulated",
+    "llm_model_version": "gemini-3.8-flash-simulated",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 140,
+    "latency_llm_ms": 160,
+    "input_tokens": 244,
+    "output_tokens": 180,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-3.8-flash-simulated"
+    },
+    "weakness_tags": [
+      5
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 10,
+  "fields": {
+    "created_at": "2026-09-28T06:47:17.951Z",
+    "updated_at": "2026-09-28T06:47:17.951Z",
+    "recording": 10,
+    "is_current": true,
+    "estimated_cefr": "B2",
+    "grammar_feedback": {
+      "overall_score": 98,
+      "strengths": [
+        "Flawless use of the present perfect continuous tense ('have been working') to describe an ongoing action.",
+        "Correct pairing of a preposition with a gerund ('working on developing').",
+        "Well-structured noun phrases with appropriate modifiers ('spoken English communication skills')."
+      ],
+      "corrections": []
+    },
+    "vocabulary_feedback": {
+      "overall_score": 88,
+      "advanced_words_used": [
+        "developing",
+        "professional vocabulary",
+        "communication skills"
+      ],
+      "suggestions": [
+        {
+          "word": "working on developing",
+          "alternatives": [
+            "honing",
+            "refining",
+            "enhancing"
+          ],
+          "context": "These verbs convey polished dedication to upgrading specialized skills."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 93,
+      "pause_count": 0,
+      "avg_pause_ms": 0,
+      "longest_pause_ms": 0,
+      "filler_count": 0,
+      "word_count": 14,
+      "speaking_duration": 9.0
+    },
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start_offset": 0.2,
+        "end_offset": 0.71
+      },
+      {
+        "word": "have",
+        "start_offset": 0.84,
+        "end_offset": 1.36
+      },
+      {
+        "word": "been",
+        "start_offset": 1.49,
+        "end_offset": 2.0
+      },
+      {
+        "word": "working",
+        "start_offset": 2.13,
+        "end_offset": 2.64
+      },
+      {
+        "word": "on",
+        "start_offset": 2.77,
+        "end_offset": 3.29
+      },
+      {
+        "word": "developing",
+        "start_offset": 3.41,
+        "end_offset": 3.93
+      },
+      {
+        "word": "my",
+        "start_offset": 4.06,
+        "end_offset": 4.57
+      },
+      {
+        "word": "spoken",
+        "start_offset": 4.7,
+        "end_offset": 5.21
+      },
+      {
+        "word": "English",
+        "start_offset": 5.34,
+        "end_offset": 5.86
+      },
+      {
+        "word": "communication",
+        "start_offset": 5.99,
+        "end_offset": 6.5
+      },
+      {
+        "word": "skills",
+        "start_offset": 6.63,
+        "end_offset": 7.14
+      },
+      {
+        "word": "and",
+        "start_offset": 7.27,
+        "end_offset": 7.79
+      },
+      {
+        "word": "professional",
+        "start_offset": 7.91,
+        "end_offset": 8.43
+      },
+      {
+        "word": "vocabulary.",
+        "start_offset": 8.56,
+        "end_offset": 9.0
+      }
+    ],
+    "asr_model_version": "gemini-3.8-flash-simulated",
+    "llm_model_version": "gemini-3.8-flash",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 140,
+    "latency_llm_ms": 8985,
+    "input_tokens": 652,
+    "output_tokens": 265,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-3.8-flash"
+    },
+    "weakness_tags": []
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 11,
+  "fields": {
+    "created_at": "2026-09-28T07:51:35.989Z",
+    "updated_at": "2026-09-28T07:51:35.989Z",
+    "recording": 11,
+    "is_current": false,
+    "estimated_cefr": "B2",
+    "grammar_feedback": {
+      "overall_score": 92,
+      "strengths": [
+        "Demonstrated solid sentence length and conversational elaboration.",
+        "Maintained high grammatical consistency with zero major syntactic errors."
+      ],
+      "corrections": []
+    },
+    "vocabulary_feedback": {
+      "overall_score": 95,
+      "advanced_words_used": [
+        "crossfunctional",
+        "collaborated",
+        "solutions",
+        "scalable"
+      ],
+      "suggestions": [
+        {
+          "word": "with",
+          "alternatives": [
+            "nuanced phrasing",
+            "precise terminology"
+          ],
+          "context": "Consider varying 'with' with domain-specific expressions."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 30,
+      "pause_count": 14,
+      "avg_pause_ms": 932,
+      "longest_pause_ms": 940,
+      "filler_count": 0,
+      "word_count": 15,
+      "speaking_duration": 70.0
+    },
+    "word_timestamps": [
+      {
+        "word": "In",
+        "start_offset": 0.2,
+        "end_offset": 3.93
+      },
+      {
+        "word": "my",
+        "start_offset": 4.87,
+        "end_offset": 8.6
+      },
+      {
+        "word": "previous",
+        "start_offset": 9.53,
+        "end_offset": 13.27
+      },
+      {
+        "word": "project,",
+        "start_offset": 14.2,
+        "end_offset": 17.93
+      },
+      {
+        "word": "I",
+        "start_offset": 18.87,
+        "end_offset": 22.6
+      },
+      {
+        "word": "collaborated",
+        "start_offset": 23.53,
+        "end_offset": 27.27
+      },
+      {
+        "word": "closely",
+        "start_offset": 28.2,
+        "end_offset": 31.93
+      },
+      {
+        "word": "with",
+        "start_offset": 32.87,
+        "end_offset": 36.6
+      },
+      {
+        "word": "cross-functional",
+        "start_offset": 37.53,
+        "end_offset": 41.27
+      },
+      {
+        "word": "teams",
+        "start_offset": 42.2,
+        "end_offset": 45.93
+      },
+      {
+        "word": "to",
+        "start_offset": 46.87,
+        "end_offset": 50.6
+      },
+      {
+        "word": "deliver",
+        "start_offset": 51.53,
+        "end_offset": 55.27
+      },
+      {
+        "word": "scalable",
+        "start_offset": 56.2,
+        "end_offset": 59.93
+      },
+      {
+        "word": "software",
+        "start_offset": 60.87,
+        "end_offset": 64.6
+      },
+      {
+        "word": "solutions.",
+        "start_offset": 65.53,
+        "end_offset": 69.27
+      }
+    ],
+    "asr_model_version": "gemini-3.8-flash-simulated",
+    "llm_model_version": "gemini-3.8-flash-simulated",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 140,
+    "latency_llm_ms": 160,
+    "input_tokens": 250,
+    "output_tokens": 180,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-3.8-flash-simulated"
+    },
+    "weakness_tags": [
+      5
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 12,
+  "fields": {
+    "created_at": "2026-09-28T08:09:41.656Z",
+    "updated_at": "2026-09-28T08:09:41.656Z",
+    "recording": 11,
+    "is_current": false,
+    "estimated_cefr": "B2",
+    "grammar_feedback": {
+      "overall_score": 92,
+      "strengths": [
+        "Provided a direct, understandable conversational response.",
+        "Maintained high grammatical consistency with zero major syntactic errors."
+      ],
+      "corrections": []
+    },
+    "vocabulary_feedback": {
+      "overall_score": 95,
+      "advanced_words_used": [
+        "conversational",
+        "consistently",
+        "spontaneous",
+        "vocabulary"
+      ],
+      "suggestions": []
+    },
+    "fluency_metrics": {
+      "wpm": 30,
+      "pause_count": 12,
+      "avg_pause_ms": 1076,
+      "longest_pause_ms": 1080,
+      "filler_count": 0,
+      "word_count": 13,
+      "speaking_duration": 70.0
+    },
+    "word_timestamps": [
+      {
+        "word": "Practicing",
+        "start_offset": 0.2,
+        "end_offset": 4.51
+      },
+      {
+        "word": "conversational",
+        "start_offset": 5.58,
+        "end_offset": 9.89
+      },
+      {
+        "word": "English",
+        "start_offset": 10.97,
+        "end_offset": 15.28
+      },
+      {
+        "word": "consistently",
+        "start_offset": 16.35,
+        "end_offset": 20.66
+      },
+      {
+        "word": "helps",
+        "start_offset": 21.74,
+        "end_offset": 26.05
+      },
+      {
+        "word": "expand",
+        "start_offset": 27.12,
+        "end_offset": 31.43
+      },
+      {
+        "word": "vocabulary",
+        "start_offset": 32.51,
+        "end_offset": 36.82
+      },
+      {
+        "word": "range",
+        "start_offset": 37.89,
+        "end_offset": 42.2
+      },
+      {
+        "word": "and",
+        "start_offset": 43.28,
+        "end_offset": 47.58
+      },
+      {
+        "word": "improves",
+        "start_offset": 48.66,
+        "end_offset": 52.97
+      },
+      {
+        "word": "spontaneous",
+        "start_offset": 54.05,
+        "end_offset": 58.35
+      },
+      {
+        "word": "speaking",
+        "start_offset": 59.43,
+        "end_offset": 63.74
+      },
+      {
+        "word": "fluency.",
+        "start_offset": 64.82,
+        "end_offset": 69.12
+      }
+    ],
+    "asr_model_version": "gemini-3.8-flash-simulated",
+    "llm_model_version": "gemini-3.8-flash-simulated",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 140,
+    "latency_llm_ms": 160,
+    "input_tokens": 246,
+    "output_tokens": 180,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-3.8-flash-simulated"
+    },
+    "weakness_tags": [
+      5
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 13,
+  "fields": {
+    "created_at": "2026-09-28T09:58:08.315Z",
+    "updated_at": "2026-09-28T09:58:08.315Z",
+    "recording": 12,
+    "is_current": true,
+    "estimated_cefr": "B1",
+    "grammar_feedback": {
+      "overall_score": 85,
+      "strengths": [
+        "Flawless compound subject-verb agreement with 'communication and regular practice are'",
+        "Natural and accurate use of prepositional phrasing with 'factors for career growth'"
+      ],
+      "corrections": []
+    },
+    "vocabulary_feedback": {
+      "overall_score": 60,
+      "advanced_words_used": [
+        "effective communication",
+        "key factors",
+        "career growth"
+      ],
+      "suggestions": [
+        {
+          "word": "key factors",
+          "alternatives": [
+            "pivotal catalysts",
+            "integral components",
+            "indispensable drivers"
+          ],
+          "context": "Use these more sophisticated collocations when presenting formal arguments or professional insights."
+        },
+        {
+          "word": "growth",
+          "alternatives": [
+            "advancement",
+            "progression",
+            "trajectory"
+          ],
+          "context": "Pairing 'career' with 'advancement' or 'trajectory' elevates the professional register of your statement."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 30,
+      "pause_count": 13,
+      "avg_pause_ms": 1184,
+      "longest_pause_ms": 1190,
+      "filler_count": 0,
+      "word_count": 14,
+      "speaking_duration": 83.0
+    },
+    "word_timestamps": [
+      {
+        "word": "I",
+        "start_offset": 0.2,
+        "end_offset": 4.94
+      },
+      {
+        "word": "believe",
+        "start_offset": 6.13,
+        "end_offset": 10.87
+      },
+      {
+        "word": "that",
+        "start_offset": 12.06,
+        "end_offset": 16.8
+      },
+      {
+        "word": "effective",
+        "start_offset": 17.99,
+        "end_offset": 22.73
+      },
+      {
+        "word": "communication",
+        "start_offset": 23.91,
+        "end_offset": 28.66
+      },
+      {
+        "word": "and",
+        "start_offset": 29.84,
+        "end_offset": 34.59
+      },
+      {
+        "word": "regular",
+        "start_offset": 35.77,
+        "end_offset": 40.51
+      },
+      {
+        "word": "practice",
+        "start_offset": 41.7,
+        "end_offset": 46.44
+      },
+      {
+        "word": "are",
+        "start_offset": 47.63,
+        "end_offset": 52.37
+      },
+      {
+        "word": "key",
+        "start_offset": 53.56,
+        "end_offset": 58.3
+      },
+      {
+        "word": "factors",
+        "start_offset": 59.49,
+        "end_offset": 64.23
+      },
+      {
+        "word": "for",
+        "start_offset": 65.41,
+        "end_offset": 70.16
+      },
+      {
+        "word": "career",
+        "start_offset": 71.34,
+        "end_offset": 76.09
+      },
+      {
+        "word": "growth.",
+        "start_offset": 77.27,
+        "end_offset": 82.01
+      }
+    ],
+    "asr_model_version": "gemini-3.8-flash-simulated",
+    "llm_model_version": "gemini-3.8-flash",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 140,
+    "latency_llm_ms": 60337,
+    "input_tokens": 610,
+    "output_tokens": 465,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-3.8-flash"
+    },
+    "weakness_tags": [
+      6,
+      4,
+      3
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 14,
+  "fields": {
+    "created_at": "2026-09-28T10:25:27.102Z",
+    "updated_at": "2026-09-28T10:25:27.102Z",
+    "recording": 11,
+    "is_current": true,
+    "estimated_cefr": "B1",
+    "grammar_feedback": {
+      "overall_score": 75,
+      "strengths": [
+        "Successfully uses past tense verbs like 'was doing' and 'couldn't be managed' to narrate past events.",
+        "Maintains narrative coherence with effective transition words like 'So, yeah' and 'in the end'."
+      ],
+      "corrections": [
+        {
+          "original": "there was some exceptionally large things",
+          "corrected": "there were some exceptionally large things",
+          "explanation": "Use 'were' instead of 'was' because the noun phrase 'some exceptionally large things' is plural.",
+          "rule_tag": "Subject-Verb Agreement"
+        },
+        {
+          "original": "and kind of use the growth mindset in me",
+          "corrected": "and kind of used a growth mindset",
+          "explanation": "Maintain past tense consistency throughout the narrative using 'used', and use the article 'a' with 'growth mindset' rather than 'in me'.",
+          "rule_tag": "Past Tense"
+        }
+      ]
+    },
+    "vocabulary_feedback": {
+      "overall_score": 72,
+      "advanced_words_used": [
+        "exceptionally",
+        "perseverance",
+        "emotional intelligence",
+        "redirection",
+        "perspective"
+      ],
+      "suggestions": [
+        {
+          "word": "pretty good setback",
+          "alternatives": [
+            "significant setback",
+            "formidable obstacle",
+            "challenging hurdle"
+          ],
+          "context": "Use more descriptive adjectives instead of 'pretty good' when describing negative experiences to sound more precise."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 73,
+      "pause_count": 36,
+      "avg_pause_ms": 801,
+      "longest_pause_ms": 2179,
+      "filler_count": 4,
+      "word_count": 85,
+      "speaking_duration": 70.0
+    },
+    "word_timestamps": [
+      {
+        "word": "Okay,",
+        "start_offset": 1.41,
+        "end_offset": 1.76
+      },
+      {
+        "word": "so",
+        "start_offset": 2.27,
+        "end_offset": 2.65
+      },
+      {
+        "word": "I",
+        "start_offset": 3.73,
+        "end_offset": 4.2
+      },
+      {
+        "word": "was",
+        "start_offset": 5.92,
+        "end_offset": 6.3
+      },
+      {
+        "word": "doing",
+        "start_offset": 6.95,
+        "end_offset": 7.16
+      },
+      {
+        "word": "a",
+        "start_offset": 7.38,
+        "end_offset": 7.62
+      },
+      {
+        "word": "project",
+        "start_offset": 8.36,
+        "end_offset": 9.18
+      },
+      {
+        "word": "and",
+        "start_offset": 10.38,
+        "end_offset": 10.88
+      },
+      {
+        "word": "there",
+        "start_offset": 11.03,
+        "end_offset": 11.37
+      },
+      {
+        "word": "were",
+        "start_offset": 11.54,
+        "end_offset": 11.84
+      },
+      {
+        "word": "some",
+        "start_offset": 12.36,
+        "end_offset": 12.72
+      },
+      {
+        "word": "exceptionally",
+        "start_offset": 13.91,
+        "end_offset": 14.88
+      },
+      {
+        "word": "large",
+        "start_offset": 16.48,
+        "end_offset": 17.16
+      },
+      {
+        "word": "things",
+        "start_offset": 19.34,
+        "end_offset": 19.66
+      },
+      {
+        "word": "that",
+        "start_offset": 19.89,
+        "end_offset": 20.18
+      },
+      {
+        "word": "couldn't",
+        "start_offset": 20.61,
+        "end_offset": 20.91
+      },
+      {
+        "word": "be",
+        "start_offset": 21.05,
+        "end_offset": 21.32
+      },
+      {
+        "word": "managed",
+        "start_offset": 22.34,
+        "end_offset": 23.02
+      },
+      {
+        "word": "and",
+        "start_offset": 23.36,
+        "end_offset": 23.7
+      },
+      {
+        "word": "couldn't",
+        "start_offset": 23.95,
+        "end_offset": 24.23
+      },
+      {
+        "word": "be",
+        "start_offset": 24.34,
+        "end_offset": 24.52
+      },
+      {
+        "word": "specified",
+        "start_offset": 25.14,
+        "end_offset": 25.68
+      },
+      {
+        "word": "otherwise.",
+        "start_offset": 25.96,
+        "end_offset": 26.55
+      },
+      {
+        "word": "So",
+        "start_offset": 26.96,
+        "end_offset": 27.5
+      },
+      {
+        "word": "in",
+        "start_offset": 27.88,
+        "end_offset": 27.98
+      },
+      {
+        "word": "the",
+        "start_offset": 28.16,
+        "end_offset": 28.32
+      },
+      {
+        "word": "end",
+        "start_offset": 29.02,
+        "end_offset": 29.48
+      },
+      {
+        "word": "I",
+        "start_offset": 30.12,
+        "end_offset": 30.41
+      },
+      {
+        "word": "couldn't",
+        "start_offset": 30.73,
+        "end_offset": 31.02
+      },
+      {
+        "word": "even",
+        "start_offset": 31.23,
+        "end_offset": 31.55
+      },
+      {
+        "word": "do",
+        "start_offset": 31.95,
+        "end_offset": 32.15
+      },
+      {
+        "word": "the",
+        "start_offset": 32.41,
+        "end_offset": 32.55
+      },
+      {
+        "word": "project",
+        "start_offset": 33.1,
+        "end_offset": 33.56
+      },
+      {
+        "word": "because",
+        "start_offset": 33.91,
+        "end_offset": 34.34
+      },
+      {
+        "word": "I",
+        "start_offset": 34.51,
+        "end_offset": 34.66
+      },
+      {
+        "word": "didn't",
+        "start_offset": 34.91,
+        "end_offset": 35.12
+      },
+      {
+        "word": "have",
+        "start_offset": 35.31,
+        "end_offset": 35.53
+      },
+      {
+        "word": "the",
+        "start_offset": 35.63,
+        "end_offset": 35.76
+      },
+      {
+        "word": "resources.",
+        "start_offset": 36.44,
+        "end_offset": 37.13
+      },
+      {
+        "word": "So,",
+        "start_offset": 37.9,
+        "end_offset": 38.3
+      },
+      {
+        "word": "yeah,",
+        "start_offset": 38.94,
+        "end_offset": 39.27
+      },
+      {
+        "word": "it",
+        "start_offset": 39.38,
+        "end_offset": 39.55
+      },
+      {
+        "word": "was",
+        "start_offset": 39.7,
+        "end_offset": 39.88
+      },
+      {
+        "word": "a",
+        "start_offset": 39.95,
+        "end_offset": 40.09
+      },
+      {
+        "word": "pretty",
+        "start_offset": 40.48,
+        "end_offset": 40.85
+      },
+      {
+        "word": "good",
+        "start_offset": 41.31,
+        "end_offset": 41.69
+      },
+      {
+        "word": "setback,",
+        "start_offset": 42.15,
+        "end_offset": 42.66
+      },
+      {
+        "word": "but",
+        "start_offset": 43.15,
+        "end_offset": 43.34
+      },
+      {
+        "word": "I",
+        "start_offset": 44.58,
+        "end_offset": 44.91
+      },
+      {
+        "word": "at",
+        "start_offset": 45.15,
+        "end_offset": 45.37
+      },
+      {
+        "word": "that",
+        "start_offset": 45.55,
+        "end_offset": 45.74
+      },
+      {
+        "word": "time,",
+        "start_offset": 46.12,
+        "end_offset": 46.52
+      },
+      {
+        "word": "I",
+        "start_offset": 46.77,
+        "end_offset": 47.05
+      },
+      {
+        "word": "used",
+        "start_offset": 47.78,
+        "end_offset": 48.44
+      },
+      {
+        "word": "my",
+        "start_offset": 48.8,
+        "end_offset": 49.03
+      },
+      {
+        "word": "perseverance",
+        "start_offset": 49.77,
+        "end_offset": 50.48
+      },
+      {
+        "word": "and",
+        "start_offset": 50.69,
+        "end_offset": 51.02
+      },
+      {
+        "word": "emotional",
+        "start_offset": 51.49,
+        "end_offset": 51.98
+      },
+      {
+        "word": "intelligence,",
+        "start_offset": 52.62,
+        "end_offset": 53.3
+      },
+      {
+        "word": "and",
+        "start_offset": 53.8,
+        "end_offset": 54.2
+      },
+      {
+        "word": "I",
+        "start_offset": 54.49,
+        "end_offset": 54.67
+      },
+      {
+        "word": "thought",
+        "start_offset": 55.09,
+        "end_offset": 55.45
+      },
+      {
+        "word": "that",
+        "start_offset": 55.77,
+        "end_offset": 56.12
+      },
+      {
+        "word": "rejection",
+        "start_offset": 57.06,
+        "end_offset": 57.92
+      },
+      {
+        "word": "is",
+        "start_offset": 58.47,
+        "end_offset": 58.98
+      },
+      {
+        "word": "a",
+        "start_offset": 59.09,
+        "end_offset": 59.22
+      },
+      {
+        "word": "redirection,",
+        "start_offset": 59.98,
+        "end_offset": 60.7
+      },
+      {
+        "word": "and",
+        "start_offset": 61.12,
+        "end_offset": 61.34
+      },
+      {
+        "word": "this",
+        "start_offset": 61.65,
+        "end_offset": 61.95
+      },
+      {
+        "word": "changed",
+        "start_offset": 62.47,
+        "end_offset": 62.88
+      },
+      {
+        "word": "my",
+        "start_offset": 63.09,
+        "end_offset": 63.31
+      },
+      {
+        "word": "perspective",
+        "start_offset": 64.08,
+        "end_offset": 64.67
+      },
+      {
+        "word": "and",
+        "start_offset": 65.05,
+        "end_offset": 65.17
+      },
+      {
+        "word": "kind",
+        "start_offset": 66.19,
+        "end_offset": 66.39
+      },
+      {
+        "word": "of",
+        "start_offset": 66.47,
+        "end_offset": 66.61
+      },
+      {
+        "word": "used",
+        "start_offset": 66.75,
+        "end_offset": 67.33
+      },
+      {
+        "word": "a",
+        "start_offset": 67.38,
+        "end_offset": 67.47
+      },
+      {
+        "word": "growth",
+        "start_offset": 68.05,
+        "end_offset": 68.45
+      },
+      {
+        "word": "mindset",
+        "start_offset": 68.91,
+        "end_offset": 69.31
+      },
+      {
+        "word": "in",
+        "start_offset": 69.45,
+        "end_offset": 69.58
+      },
+      {
+        "word": "me",
+        "start_offset": 69.91,
+        "end_offset": 70.08
+      },
+      {
+        "word": "and",
+        "start_offset": 70.36,
+        "end_offset": 70.77
+      },
+      {
+        "word": "yeah,",
+        "start_offset": 71.31,
+        "end_offset": 71.61
+      },
+      {
+        "word": "that's",
+        "start_offset": 71.95,
+        "end_offset": 72.05
+      },
+      {
+        "word": "it.",
+        "start_offset": 72.42,
+        "end_offset": 72.52
+      }
+    ],
+    "asr_model_version": "gemini-flash-lite-latest",
+    "llm_model_version": "gemini-flash-lite-latest",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 12803,
+    "latency_llm_ms": 5536,
+    "input_tokens": 2561,
+    "output_tokens": 4005,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-flash-lite-latest"
+    },
+    "weakness_tags": [
+      6,
+      4,
+      1,
+      7
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 15,
+  "fields": {
+    "created_at": "2026-09-28T10:31:25.382Z",
+    "updated_at": "2026-09-28T10:31:25.383Z",
+    "recording": 13,
+    "is_current": true,
+    "estimated_cefr": "B2",
+    "grammar_feedback": {
+      "overall_score": 82,
+      "strengths": [
+        "Successfully uses present perfect tense to discuss ongoing technological impacts.",
+        "Good use of subordinate clauses beginning with 'while' and 'so'."
+      ],
+      "corrections": [
+        {
+          "original": "automated the education and modern jobs",
+          "corrected": "transformed education and modern job markets",
+          "explanation": "Artificial intelligence automates processes and tasks within sectors rather than automating the sectors themselves entirely.",
+          "rule_tag": "Collocation"
+        },
+        {
+          "original": "the repetitive task",
+          "corrected": "repetitive tasks",
+          "explanation": "Task is a countable noun and should be pluralized when referring to general, recurring duties.",
+          "rule_tag": "Pluralization"
+        },
+        {
+          "original": "in compared to",
+          "corrected": "when comparing",
+          "explanation": "The correct prepositional phrase is 'in comparison to' or using the participle 'when comparing'.",
+          "rule_tag": "Prepositions"
+        }
+      ]
+    },
+    "vocabulary_feedback": {
+      "overall_score": 78,
+      "advanced_words_used": [
+        "dilemma",
+        "legitimacy",
+        "augmentation",
+        "disruption"
+      ],
+      "suggestions": [
+        {
+          "word": "pretty good",
+          "alternatives": [
+            "quite insightful",
+            "rather compelling",
+            "adequately comprehensive"
+          ],
+          "context": "Use these more sophisticated adjectives to conclude an analytical statement rather than casual conversational phrases."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 70,
+      "pause_count": 30,
+      "avg_pause_ms": 864,
+      "longest_pause_ms": 2109,
+      "filler_count": 3,
+      "word_count": 79,
+      "speaking_duration": 68.0
+    },
+    "word_timestamps": [
+      {
+        "word": "Well,",
+        "start_offset": 0.82,
+        "end_offset": 1.16
+      },
+      {
+        "word": "first",
+        "start_offset": 1.49,
+        "end_offset": 1.84
+      },
+      {
+        "word": "of",
+        "start_offset": 1.95,
+        "end_offset": 2.12
+      },
+      {
+        "word": "all,",
+        "start_offset": 2.46,
+        "end_offset": 2.77
+      },
+      {
+        "word": "artificial",
+        "start_offset": 3.74,
+        "end_offset": 4.42
+      },
+      {
+        "word": "intelligence",
+        "start_offset": 5.11,
+        "end_offset": 5.62
+      },
+      {
+        "word": "has",
+        "start_offset": 5.87,
+        "end_offset": 6.31
+      },
+      {
+        "word": "automated",
+        "start_offset": 6.82,
+        "end_offset": 7.75
+      },
+      {
+        "word": "the",
+        "start_offset": 8.77,
+        "end_offset": 8.93
+      },
+      {
+        "word": "education",
+        "start_offset": 9.43,
+        "end_offset": 9.95
+      },
+      {
+        "word": "and",
+        "start_offset": 10.05,
+        "end_offset": 10.16
+      },
+      {
+        "word": "modern",
+        "start_offset": 10.61,
+        "end_offset": 10.75
+      },
+      {
+        "word": "jobs.",
+        "start_offset": 11.24,
+        "end_offset": 11.67
+      },
+      {
+        "word": "It",
+        "start_offset": 12.07,
+        "end_offset": 12.34
+      },
+      {
+        "word": "has",
+        "start_offset": 12.83,
+        "end_offset": 13.32
+      },
+      {
+        "word": "fully",
+        "start_offset": 13.52,
+        "end_offset": 13.79
+      },
+      {
+        "word": "automated",
+        "start_offset": 14.17,
+        "end_offset": 14.66
+      },
+      {
+        "word": "the",
+        "start_offset": 14.94,
+        "end_offset": 15.16
+      },
+      {
+        "word": "repetitive",
+        "start_offset": 15.66,
+        "end_offset": 16.04
+      },
+      {
+        "word": "task",
+        "start_offset": 16.49,
+        "end_offset": 16.9
+      },
+      {
+        "word": "and",
+        "start_offset": 17.16,
+        "end_offset": 17.44
+      },
+      {
+        "word": "everything",
+        "start_offset": 19.44,
+        "end_offset": 19.99
+      },
+      {
+        "word": "without",
+        "start_offset": 20.36,
+        "end_offset": 20.68
+      },
+      {
+        "word": "any",
+        "start_offset": 20.85,
+        "end_offset": 20.98
+      },
+      {
+        "word": "disruption.",
+        "start_offset": 21.67,
+        "end_offset": 22.38
+      },
+      {
+        "word": "But",
+        "start_offset": 22.96,
+        "end_offset": 23.34
+      },
+      {
+        "word": "there's",
+        "start_offset": 23.78,
+        "end_offset": 24.33
+      },
+      {
+        "word": "a",
+        "start_offset": 24.48,
+        "end_offset": 24.58
+      },
+      {
+        "word": "huge",
+        "start_offset": 24.88,
+        "end_offset": 25.14
+      },
+      {
+        "word": "ethical",
+        "start_offset": 25.49,
+        "end_offset": 25.76
+      },
+      {
+        "word": "dilemma",
+        "start_offset": 26.28,
+        "end_offset": 26.84
+      },
+      {
+        "word": "in",
+        "start_offset": 28.54,
+        "end_offset": 29.08
+      },
+      {
+        "word": "compared",
+        "start_offset": 29.62,
+        "end_offset": 30.09
+      },
+      {
+        "word": "to",
+        "start_offset": 30.3,
+        "end_offset": 30.46
+      },
+      {
+        "word": "efficiency",
+        "start_offset": 30.96,
+        "end_offset": 31.58
+      },
+      {
+        "word": "versus",
+        "start_offset": 32.75,
+        "end_offset": 33.46
+      },
+      {
+        "word": "legitimacy",
+        "start_offset": 34.7,
+        "end_offset": 35.62
+      },
+      {
+        "word": "or",
+        "start_offset": 35.81,
+        "end_offset": 36.2
+      },
+      {
+        "word": "authenticity.",
+        "start_offset": 38.31,
+        "end_offset": 39.12
+      },
+      {
+        "word": "While",
+        "start_offset": 39.82,
+        "end_offset": 40.24
+      },
+      {
+        "word": "AI",
+        "start_offset": 40.46,
+        "end_offset": 40.72
+      },
+      {
+        "word": "can",
+        "start_offset": 41.06,
+        "end_offset": 41.45
+      },
+      {
+        "word": "do",
+        "start_offset": 41.6,
+        "end_offset": 41.81
+      },
+      {
+        "word": "automations,",
+        "start_offset": 42.67,
+        "end_offset": 43.44
+      },
+      {
+        "word": "it",
+        "start_offset": 44.58,
+        "end_offset": 44.98
+      },
+      {
+        "word": "needs",
+        "start_offset": 45.48,
+        "end_offset": 46.07
+      },
+      {
+        "word": "human",
+        "start_offset": 46.6,
+        "end_offset": 48.34
+      },
+      {
+        "word": "acceptance.",
+        "start_offset": 50.41,
+        "end_offset": 51.1
+      },
+      {
+        "word": "You",
+        "start_offset": 51.14,
+        "end_offset": 51.32
+      },
+      {
+        "word": "know,",
+        "start_offset": 51.53,
+        "end_offset": 51.73
+      },
+      {
+        "word": "at",
+        "start_offset": 51.99,
+        "end_offset": 52.21
+      },
+      {
+        "word": "the",
+        "start_offset": 52.34,
+        "end_offset": 52.44
+      },
+      {
+        "word": "end",
+        "start_offset": 52.62,
+        "end_offset": 52.8
+      },
+      {
+        "word": "of",
+        "start_offset": 52.93,
+        "end_offset": 53.06
+      },
+      {
+        "word": "the",
+        "start_offset": 53.14,
+        "end_offset": 53.24
+      },
+      {
+        "word": "day,",
+        "start_offset": 53.52,
+        "end_offset": 53.8
+      },
+      {
+        "word": "a",
+        "start_offset": 54.01,
+        "end_offset": 54.11
+      },
+      {
+        "word": "human",
+        "start_offset": 54.35,
+        "end_offset": 54.68
+      },
+      {
+        "word": "has",
+        "start_offset": 54.92,
+        "end_offset": 55.11
+      },
+      {
+        "word": "to",
+        "start_offset": 55.23,
+        "end_offset": 55.34
+      },
+      {
+        "word": "accept",
+        "start_offset": 55.78,
+        "end_offset": 56.13
+      },
+      {
+        "word": "the",
+        "start_offset": 56.29,
+        "end_offset": 56.58
+      },
+      {
+        "word": "AI",
+        "start_offset": 56.78,
+        "end_offset": 56.98
+      },
+      {
+        "word": "generated",
+        "start_offset": 57.55,
+        "end_offset": 58.34
+      },
+      {
+        "word": "output,",
+        "start_offset": 58.95,
+        "end_offset": 59.44
+      },
+      {
+        "word": "so",
+        "start_offset": 59.91,
+        "end_offset": 60.34
+      },
+      {
+        "word": "it",
+        "start_offset": 60.56,
+        "end_offset": 60.72
+      },
+      {
+        "word": "really",
+        "start_offset": 61.03,
+        "end_offset": 61.35
+      },
+      {
+        "word": "is",
+        "start_offset": 61.43,
+        "end_offset": 61.58
+      },
+      {
+        "word": "an",
+        "start_offset": 61.72,
+        "end_offset": 61.86
+      },
+      {
+        "word": "augmentation",
+        "start_offset": 62.67,
+        "end_offset": 63.46
+      },
+      {
+        "word": "instead",
+        "start_offset": 63.8,
+        "end_offset": 64.13
+      },
+      {
+        "word": "of",
+        "start_offset": 64.39,
+        "end_offset": 64.72
+      },
+      {
+        "word": "replacement.",
+        "start_offset": 65.52,
+        "end_offset": 66.22
+      },
+      {
+        "word": "And",
+        "start_offset": 66.87,
+        "end_offset": 67.34
+      },
+      {
+        "word": "yeah,",
+        "start_offset": 67.46,
+        "end_offset": 67.69
+      },
+      {
+        "word": "that's",
+        "start_offset": 67.93,
+        "end_offset": 68.23
+      },
+      {
+        "word": "pretty",
+        "start_offset": 68.45,
+        "end_offset": 68.75
+      },
+      {
+        "word": "good.",
+        "start_offset": 69.08,
+        "end_offset": 69.37
+      }
+    ],
+    "asr_model_version": "gemini-flash-lite-latest",
+    "llm_model_version": "gemini-flash-lite-latest",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 29341,
+    "latency_llm_ms": 25491,
+    "input_tokens": 2529,
+    "output_tokens": 3712,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-flash-lite-latest"
+    },
+    "weakness_tags": [
+      9,
+      8,
+      2
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 22,
+  "fields": {
+    "created_at": "2026-09-28T12:06:47.142Z",
+    "updated_at": "2026-09-28T12:06:47.170Z",
+    "recording": 20,
+    "is_current": false,
+    "estimated_cefr": "B1",
+    "grammar_feedback": {
+      "overall_score": 75,
+      "strengths": [
+        "Successfully manages a complex sentence structure to assign accountability to specific roles.",
+        "Accurately uses relative clauses ('who's in charge', 'who is supervising')."
+      ],
+      "corrections": [
+        {
+          "original": "in nowadays",
+          "corrected": "nowadays",
+          "explanation": "The preposition 'in' is unnecessary when using the adverb 'nowadays'.",
+          "rule_tag": "Prepositions"
+        },
+        {
+          "original": "So, I in my opinion, the person...",
+          "corrected": "In my opinion, the person...",
+          "explanation": "Avoid combining conversational fillers ('So') with modifying phrases like 'in my opinion' directly preceding the subject.",
+          "rule_tag": "Word Order"
+        }
+      ]
+    },
+    "vocabulary_feedback": {
+      "overall_score": 70,
+      "advanced_words_used": [
+        "accountability",
+        "workflow",
+        "supervising"
+      ],
+      "suggestions": [
+        {
+          "word": "real issue",
+          "alternatives": [
+            "pressing concern",
+            "critical challenge",
+            "pivotal dilemma"
+          ],
+          "context": "Use these phrases to elevate academic or professional discussions about modern technological problems."
+        },
+        {
+          "word": "every company is using",
+          "alternatives": [
+            "ubiquitous adoption",
+            "widespread integration"
+          ],
+          "context": "Use these nominalized structures to describe industry-wide trends with more formal academic tone."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 94,
+      "pause_count": 26,
+      "avg_pause_ms": 725,
+      "longest_pause_ms": 1119,
+      "filler_count": 3,
+      "word_count": 69,
+      "speaking_duration": 44.0,
+      "promotion": {
+        "promoted": false,
+        "current_level": "B1",
+        "next_level": "B2",
+        "target_name": "B2 - Upper Intermediate",
+        "qualifying_sessions": 0,
+        "sessions_evaluated": 5,
+        "required_qualifying": 4,
+        "target_description": "Speak spontaneously on familiar topics with clear grammatical control and multi-clause complexity.",
+        "target_metrics": {
+          "min_wpm": 105,
+          "max_avg_pause_ms": 850,
+          "min_words_per_turn": 28,
+          "min_grammar_score": 84,
+          "min_vocab_score": 80
+        }
+      }
+    },
+    "word_timestamps": [
+      {
+        "word": "Well,",
+        "start_offset": 0.82,
+        "end_offset": 1.15
+      },
+      {
+        "word": "this",
+        "start_offset": 1.46,
+        "end_offset": 1.64
+      },
+      {
+        "word": "is",
+        "start_offset": 1.78,
+        "end_offset": 1.96
+      },
+      {
+        "word": "a",
+        "start_offset": 2.06,
+        "end_offset": 2.16
+      },
+      {
+        "word": "real",
+        "start_offset": 2.41,
+        "end_offset": 2.73
+      },
+      {
+        "word": "issue",
+        "start_offset": 3.26,
+        "end_offset": 3.98
+      },
+      {
+        "word": "in",
+        "start_offset": 4.37,
+        "end_offset": 4.89
+      },
+      {
+        "word": "nowadays,",
+        "start_offset": 5.1,
+        "end_offset": 5.57
+      },
+      {
+        "word": "because",
+        "start_offset": 6.32,
+        "end_offset": 7.04
+      },
+      {
+        "word": "every",
+        "start_offset": 7.16,
+        "end_offset": 7.51
+      },
+      {
+        "word": "company",
+        "start_offset": 7.92,
+        "end_offset": 8.17
+      },
+      {
+        "word": "is",
+        "start_offset": 8.53,
+        "end_offset": 8.88
+      },
+      {
+        "word": "using",
+        "start_offset": 9.21,
+        "end_offset": 9.55
+      },
+      {
+        "word": "AI",
+        "start_offset": 9.88,
+        "end_offset": 10.16
+      },
+      {
+        "word": "in",
+        "start_offset": 10.22,
+        "end_offset": 10.38
+      },
+      {
+        "word": "their",
+        "start_offset": 10.52,
+        "end_offset": 10.75
+      },
+      {
+        "word": "workflow.",
+        "start_offset": 11.24,
+        "end_offset": 11.76
+      },
+      {
+        "word": "So",
+        "start_offset": 12.19,
+        "end_offset": 12.52
+      },
+      {
+        "word": "the",
+        "start_offset": 12.61,
+        "end_offset": 12.88
+      },
+      {
+        "word": "accountability",
+        "start_offset": 13.57,
+        "end_offset": 14.41
+      },
+      {
+        "word": "matters",
+        "start_offset": 15.35,
+        "end_offset": 16.04
+      },
+      {
+        "word": "in",
+        "start_offset": 16.28,
+        "end_offset": 16.44
+      },
+      {
+        "word": "this",
+        "start_offset": 16.6,
+        "end_offset": 16.83
+      },
+      {
+        "word": "scenario,",
+        "start_offset": 17.52,
+        "end_offset": 18.01
+      },
+      {
+        "word": "and",
+        "start_offset": 18.32,
+        "end_offset": 18.9
+      },
+      {
+        "word": "it",
+        "start_offset": 19.17,
+        "end_offset": 19.35
+      },
+      {
+        "word": "matters",
+        "start_offset": 19.73,
+        "end_offset": 20.07
+      },
+      {
+        "word": "even",
+        "start_offset": 20.26,
+        "end_offset": 20.48
+      },
+      {
+        "word": "more",
+        "start_offset": 20.92,
+        "end_offset": 21.5
+      },
+      {
+        "word": "nowadays.",
+        "start_offset": 22.05,
+        "end_offset": 22.47
+      },
+      {
+        "word": "So,",
+        "start_offset": 23.22,
+        "end_offset": 23.52
+      },
+      {
+        "word": "I",
+        "start_offset": 23.78,
+        "end_offset": 24.19
+      },
+      {
+        "word": "in",
+        "start_offset": 24.46,
+        "end_offset": 24.59
+      },
+      {
+        "word": "my",
+        "start_offset": 24.78,
+        "end_offset": 25.0
+      },
+      {
+        "word": "opinion,",
+        "start_offset": 25.6,
+        "end_offset": 26.07
+      },
+      {
+        "word": "the",
+        "start_offset": 26.25,
+        "end_offset": 26.57
+      },
+      {
+        "word": "person",
+        "start_offset": 27.28,
+        "end_offset": 28.54
+      },
+      {
+        "word": "who's",
+        "start_offset": 29.36,
+        "end_offset": 29.81
+      },
+      {
+        "word": "in",
+        "start_offset": 29.99,
+        "end_offset": 30.23
+      },
+      {
+        "word": "charge",
+        "start_offset": 30.74,
+        "end_offset": 31.43
+      },
+      {
+        "word": "of",
+        "start_offset": 31.82,
+        "end_offset": 32.23
+      },
+      {
+        "word": "developing",
+        "start_offset": 33.15,
+        "end_offset": 33.92
+      },
+      {
+        "word": "that",
+        "start_offset": 34.62,
+        "end_offset": 35.31
+      },
+      {
+        "word": "technology",
+        "start_offset": 35.92,
+        "end_offset": 36.44
+      },
+      {
+        "word": "using",
+        "start_offset": 36.76,
+        "end_offset": 37.11
+      },
+      {
+        "word": "AI,",
+        "start_offset": 37.39,
+        "end_offset": 37.85
+      },
+      {
+        "word": "yeah,",
+        "start_offset": 38.0,
+        "end_offset": 38.33
+      },
+      {
+        "word": "a",
+        "start_offset": 38.65,
+        "end_offset": 38.84
+      },
+      {
+        "word": "person",
+        "start_offset": 39.47,
+        "end_offset": 40.17
+      },
+      {
+        "word": "or",
+        "start_offset": 40.33,
+        "end_offset": 40.49
+      },
+      {
+        "word": "a",
+        "start_offset": 40.55,
+        "end_offset": 40.68
+      },
+      {
+        "word": "person",
+        "start_offset": 41.04,
+        "end_offset": 41.28
+      },
+      {
+        "word": "who",
+        "start_offset": 41.44,
+        "end_offset": 41.68
+      },
+      {
+        "word": "is",
+        "start_offset": 41.88,
+        "end_offset": 42.15
+      },
+      {
+        "word": "supervising",
+        "start_offset": 42.93,
+        "end_offset": 43.69
+      },
+      {
+        "word": "AI",
+        "start_offset": 44.16,
+        "end_offset": 44.76
+      },
+      {
+        "word": "agents'",
+        "start_offset": 45.7,
+        "end_offset": 45.8
+      },
+      {
+        "word": "output",
+        "start_offset": 46.75,
+        "end_offset": 46.85
+      },
+      {
+        "word": "should",
+        "start_offset": 47.97,
+        "end_offset": 48.07
+      },
+      {
+        "word": "be",
+        "start_offset": 48.43,
+        "end_offset": 48.53
+      },
+      {
+        "word": "the",
+        "start_offset": 48.68,
+        "end_offset": 48.78
+      },
+      {
+        "word": "one",
+        "start_offset": 49.5,
+        "end_offset": 49.6
+      },
+      {
+        "word": "that",
+        "start_offset": 50.5,
+        "end_offset": 50.6
+      },
+      {
+        "word": "should",
+        "start_offset": 50.94,
+        "end_offset": 51.04
+      },
+      {
+        "word": "be",
+        "start_offset": 51.28,
+        "end_offset": 51.38
+      },
+      {
+        "word": "accountable",
+        "start_offset": 52.02,
+        "end_offset": 52.12
+      },
+      {
+        "word": "for",
+        "start_offset": 52.82,
+        "end_offset": 52.92
+      },
+      {
+        "word": "the",
+        "start_offset": 53.23,
+        "end_offset": 53.33
+      },
+      {
+        "word": "outcomes.",
+        "start_offset": 54.1,
+        "end_offset": 54.2
+      }
+    ],
+    "asr_model_version": "gemini-flash-lite-latest",
+    "llm_model_version": "gemini-flash-lite-latest",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 230615,
+    "latency_llm_ms": 202283,
+    "input_tokens": 1914,
+    "output_tokens": 3306,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-flash-lite-latest"
+    },
+    "weakness_tags": [
+      9,
+      4,
+      2
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 23,
+  "fields": {
+    "created_at": "2026-09-28T12:22:12.458Z",
+    "updated_at": "2026-09-28T12:22:12.502Z",
+    "recording": 21,
+    "is_current": true,
+    "estimated_cefr": "A2",
+    "grammar_feedback": {
+      "overall_score": 75,
+      "strengths": [
+        "Good use of the 'going to' future structure to express immediate intentions",
+        "Clear subject-verb agreement in standard clauses"
+      ],
+      "corrections": [
+        {
+          "original": "achieve something uh paid a paid role",
+          "corrected": "secure a paid role",
+          "explanation": "Use the verb 'secure' or 'obtain' rather than 'achieve' when talking about getting a job, and avoid repetition.",
+          "rule_tag": "Collocation"
+        },
+        {
+          "original": "improve my living condition",
+          "corrected": "improve my living conditions",
+          "explanation": "The noun 'conditions' referring to one's living environment is typically used in the plural form.",
+          "rule_tag": "Pluralization"
+        }
+      ]
+    },
+    "vocabulary_feedback": {
+      "overall_score": 70,
+      "advanced_words_used": [
+        "target",
+        "personal life"
+      ],
+      "suggestions": [
+        {
+          "word": "get something",
+          "alternatives": [
+            "secure a position",
+            "land an opportunity",
+            "obtain employment"
+          ],
+          "context": "Use these professional collocations when discussing career aspirations and job hunting."
+        },
+        {
+          "word": "better schedule",
+          "alternatives": [
+            "more balanced routine",
+            "optimized schedule",
+            "effective time management"
+          ],
+          "context": "Use these phrases to sound more natural when discussing personal organization."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 107,
+      "pause_count": 10,
+      "avg_pause_ms": 774,
+      "longest_pause_ms": 2139,
+      "filler_count": 5,
+      "word_count": 57,
+      "speaking_duration": 32.0,
+      "promotion": {
+        "promoted": false,
+        "current_level": "B1",
+        "next_level": "B2",
+        "target_name": "B2 - Upper Intermediate",
+        "qualifying_sessions": 0,
+        "sessions_evaluated": 5,
+        "required_qualifying": 4,
+        "target_description": "Speak spontaneously on familiar topics with clear grammatical control and multi-clause complexity.",
+        "target_metrics": {
+          "min_wpm": 105,
+          "max_avg_pause_ms": 850,
+          "min_words_per_turn": 28,
+          "min_grammar_score": 84,
+          "min_vocab_score": 80
+        }
+      }
+    },
+    "word_timestamps": [
+      {
+        "word": "Well,",
+        "start_offset": 0.82,
+        "end_offset": 1.26
+      },
+      {
+        "word": "first",
+        "start_offset": 1.36,
+        "end_offset": 1.58
+      },
+      {
+        "word": "of",
+        "start_offset": 1.71,
+        "end_offset": 1.84
+      },
+      {
+        "word": "all,",
+        "start_offset": 2.02,
+        "end_offset": 2.46
+      },
+      {
+        "word": "I",
+        "start_offset": 2.59,
+        "end_offset": 2.93
+      },
+      {
+        "word": "am",
+        "start_offset": 3.13,
+        "end_offset": 3.52
+      },
+      {
+        "word": "going",
+        "start_offset": 3.94,
+        "end_offset": 4.4
+      },
+      {
+        "word": "to",
+        "start_offset": 4.55,
+        "end_offset": 4.65
+      },
+      {
+        "word": "uh",
+        "start_offset": 6.79,
+        "end_offset": 7.38
+      },
+      {
+        "word": "my",
+        "start_offset": 7.43,
+        "end_offset": 7.63
+      },
+      {
+        "word": "target",
+        "start_offset": 7.98,
+        "end_offset": 8.36
+      },
+      {
+        "word": "is",
+        "start_offset": 8.66,
+        "end_offset": 8.95
+      },
+      {
+        "word": "to",
+        "start_offset": 9.16,
+        "end_offset": 9.39
+      },
+      {
+        "word": "achieve",
+        "start_offset": 9.88,
+        "end_offset": 11.24
+      },
+      {
+        "word": "something",
+        "start_offset": 12.31,
+        "end_offset": 13.92
+      },
+      {
+        "word": "uh",
+        "start_offset": 14.29,
+        "end_offset": 14.55
+      },
+      {
+        "word": "paid",
+        "start_offset": 14.87,
+        "end_offset": 15.36
+      },
+      {
+        "word": "a",
+        "start_offset": 15.43,
+        "end_offset": 15.54
+      },
+      {
+        "word": "paid",
+        "start_offset": 15.76,
+        "end_offset": 16.04
+      },
+      {
+        "word": "role",
+        "start_offset": 16.33,
+        "end_offset": 16.66
+      },
+      {
+        "word": "or",
+        "start_offset": 16.72,
+        "end_offset": 16.93
+      },
+      {
+        "word": "something",
+        "start_offset": 17.52,
+        "end_offset": 18.07
+      },
+      {
+        "word": "like",
+        "start_offset": 18.24,
+        "end_offset": 18.5
+      },
+      {
+        "word": "that,",
+        "start_offset": 18.85,
+        "end_offset": 19.11
+      },
+      {
+        "word": "or",
+        "start_offset": 19.24,
+        "end_offset": 19.35
+      },
+      {
+        "word": "and",
+        "start_offset": 19.47,
+        "end_offset": 19.59
+      },
+      {
+        "word": "I",
+        "start_offset": 19.79,
+        "end_offset": 20.01
+      },
+      {
+        "word": "hope",
+        "start_offset": 20.26,
+        "end_offset": 20.58
+      },
+      {
+        "word": "that",
+        "start_offset": 20.74,
+        "end_offset": 20.9
+      },
+      {
+        "word": "I",
+        "start_offset": 21.06,
+        "end_offset": 21.37
+      },
+      {
+        "word": "get",
+        "start_offset": 21.69,
+        "end_offset": 21.94
+      },
+      {
+        "word": "something",
+        "start_offset": 22.26,
+        "end_offset": 22.59
+      },
+      {
+        "word": "like",
+        "start_offset": 22.76,
+        "end_offset": 22.96
+      },
+      {
+        "word": "that.",
+        "start_offset": 23.24,
+        "end_offset": 23.45
+      },
+      {
+        "word": "And",
+        "start_offset": 23.96,
+        "end_offset": 24.33
+      },
+      {
+        "word": "also,",
+        "start_offset": 24.79,
+        "end_offset": 25.14
+      },
+      {
+        "word": "in",
+        "start_offset": 25.44,
+        "end_offset": 25.6
+      },
+      {
+        "word": "my",
+        "start_offset": 25.69,
+        "end_offset": 25.87
+      },
+      {
+        "word": "personal",
+        "start_offset": 26.18,
+        "end_offset": 26.55
+      },
+      {
+        "word": "life,",
+        "start_offset": 26.97,
+        "end_offset": 27.28
+      },
+      {
+        "word": "I",
+        "start_offset": 27.57,
+        "end_offset": 27.76
+      },
+      {
+        "word": "want",
+        "start_offset": 28.3,
+        "end_offset": 28.9
+      },
+      {
+        "word": "to",
+        "start_offset": 29.18,
+        "end_offset": 29.36
+      },
+      {
+        "word": "improve",
+        "start_offset": 29.75,
+        "end_offset": 30.14
+      },
+      {
+        "word": "my",
+        "start_offset": 30.26,
+        "end_offset": 30.39
+      },
+      {
+        "word": "living",
+        "start_offset": 30.71,
+        "end_offset": 31.05
+      },
+      {
+        "word": "condition",
+        "start_offset": 31.55,
+        "end_offset": 32.07
+      },
+      {
+        "word": "and",
+        "start_offset": 32.41,
+        "end_offset": 32.9
+      },
+      {
+        "word": "have",
+        "start_offset": 33.16,
+        "end_offset": 33.37
+      },
+      {
+        "word": "a",
+        "start_offset": 33.48,
+        "end_offset": 33.58
+      },
+      {
+        "word": "better",
+        "start_offset": 33.89,
+        "end_offset": 33.99
+      },
+      {
+        "word": "schedule",
+        "start_offset": 34.8,
+        "end_offset": 34.9
+      },
+      {
+        "word": "to",
+        "start_offset": 35.54,
+        "end_offset": 35.64
+      },
+      {
+        "word": "manage",
+        "start_offset": 36.04,
+        "end_offset": 36.14
+      },
+      {
+        "word": "all",
+        "start_offset": 36.5,
+        "end_offset": 36.6
+      },
+      {
+        "word": "the",
+        "start_offset": 36.73,
+        "end_offset": 36.83
+      },
+      {
+        "word": "things.",
+        "start_offset": 37.27,
+        "end_offset": 37.37
+      }
+    ],
+    "asr_model_version": "gemini-flash-lite-latest",
+    "llm_model_version": "gemini-flash-lite-latest",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 44307,
+    "latency_llm_ms": 12590,
+    "input_tokens": 1597,
+    "output_tokens": 2799,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-flash-lite-latest"
+    },
+    "weakness_tags": [
+      9,
+      4,
+      8
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 24,
+  "fields": {
+    "created_at": "2026-09-28T12:40:54.720Z",
+    "updated_at": "2026-09-28T12:40:54.772Z",
+    "recording": 22,
+    "is_current": true,
+    "estimated_cefr": "A2",
+    "grammar_feedback": {
+      "overall_score": 75,
+      "strengths": [
+        "Consistent use of simple past tense verbs like went, visited, and arrived.",
+        "Good use of coordinating conjunctions to connect clauses and sequence events."
+      ],
+      "corrections": [
+        {
+          "original": "we went to our farm and we visited our farm",
+          "corrected": "we went to our farm and visited it",
+          "explanation": "Avoid repeating the main verb and object to make your sentences more concise and natural.",
+          "rule_tag": "Redundancy"
+        },
+        {
+          "original": "it was a beautiful scenery",
+          "corrected": "it was a beautiful scene",
+          "explanation": "Scenery is an uncountable noun and cannot be preceded by the indefinite article 'a'.",
+          "rule_tag": "Articles"
+        },
+        {
+          "original": "returned to back to our hotel",
+          "corrected": "returned to our hotel",
+          "explanation": "Do not combine the verb 'return' with the adverb 'back', as return already means to go back.",
+          "rule_tag": "Word Order"
+        }
+      ]
+    },
+    "vocabulary_feedback": {
+      "overall_score": 70,
+      "advanced_words_used": [
+        "weather",
+        "arrived",
+        "hotel"
+      ],
+      "suggestions": [
+        {
+          "word": "pretty good",
+          "alternatives": [
+            "delightful",
+            "favorable",
+            "pleasant"
+          ],
+          "context": "Use these adjectives to describe weather or experiences more vividly than the basic modifier pretty good."
+        },
+        {
+          "word": "did some work",
+          "alternatives": [
+            "tended to the farm",
+            "engaged in farm chores",
+            "completed maintenance"
+          ],
+          "context": "Replace generic activity phrases with more specific verbs to describe manual labor or tasks."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 92,
+      "pause_count": 0,
+      "avg_pause_ms": 0,
+      "longest_pause_ms": 0,
+      "filler_count": 3,
+      "word_count": 72,
+      "speaking_duration": 47.0,
+      "promotion": {
+        "promoted": false,
+        "current_level": "B1",
+        "next_level": "B2",
+        "target_name": "B2 - Upper Intermediate",
+        "qualifying_sessions": 0,
+        "sessions_evaluated": 5,
+        "required_qualifying": 4,
+        "target_description": "Speak spontaneously on familiar topics with clear grammatical control and multi-clause complexity.",
+        "target_metrics": {
+          "min_wpm": 105,
+          "max_avg_pause_ms": 850,
+          "min_words_per_turn": 28,
+          "min_grammar_score": 84,
+          "min_vocab_score": 80
+        }
+      }
+    },
+    "word_timestamps": [
+      {
+        "word": "Okay,",
+        "start_offset": 0.15,
+        "end_offset": 0.7
+      },
+      {
+        "word": "so",
+        "start_offset": 0.8,
+        "end_offset": 1.36
+      },
+      {
+        "word": "last",
+        "start_offset": 1.46,
+        "end_offset": 2.01
+      },
+      {
+        "word": "Sunday",
+        "start_offset": 2.11,
+        "end_offset": 2.66
+      },
+      {
+        "word": "we",
+        "start_offset": 2.76,
+        "end_offset": 3.32
+      },
+      {
+        "word": "went",
+        "start_offset": 3.41,
+        "end_offset": 3.97
+      },
+      {
+        "word": "to",
+        "start_offset": 4.07,
+        "end_offset": 4.62
+      },
+      {
+        "word": "our",
+        "start_offset": 4.72,
+        "end_offset": 5.27
+      },
+      {
+        "word": "farm",
+        "start_offset": 5.37,
+        "end_offset": 5.93
+      },
+      {
+        "word": "and",
+        "start_offset": 6.02,
+        "end_offset": 6.58
+      },
+      {
+        "word": "we",
+        "start_offset": 6.68,
+        "end_offset": 7.23
+      },
+      {
+        "word": "visited",
+        "start_offset": 7.33,
+        "end_offset": 7.89
+      },
+      {
+        "word": "our",
+        "start_offset": 7.98,
+        "end_offset": 8.54
+      },
+      {
+        "word": "farm",
+        "start_offset": 8.64,
+        "end_offset": 9.19
+      },
+      {
+        "word": "and",
+        "start_offset": 9.29,
+        "end_offset": 9.84
+      },
+      {
+        "word": "did",
+        "start_offset": 9.94,
+        "end_offset": 10.5
+      },
+      {
+        "word": "some",
+        "start_offset": 10.59,
+        "end_offset": 11.15
+      },
+      {
+        "word": "work",
+        "start_offset": 11.25,
+        "end_offset": 11.8
+      },
+      {
+        "word": "there.",
+        "start_offset": 11.9,
+        "end_offset": 12.45
+      },
+      {
+        "word": "We",
+        "start_offset": 12.55,
+        "end_offset": 13.11
+      },
+      {
+        "word": "have",
+        "start_offset": 13.21,
+        "end_offset": 13.76
+      },
+      {
+        "word": "trees",
+        "start_offset": 13.86,
+        "end_offset": 14.41
+      },
+      {
+        "word": "and",
+        "start_offset": 14.51,
+        "end_offset": 15.07
+      },
+      {
+        "word": "we",
+        "start_offset": 15.16,
+        "end_offset": 15.72
+      },
+      {
+        "word": "kind",
+        "start_offset": 15.82,
+        "end_offset": 16.37
+      },
+      {
+        "word": "of",
+        "start_offset": 16.47,
+        "end_offset": 17.02
+      },
+      {
+        "word": "did",
+        "start_offset": 17.12,
+        "end_offset": 17.68
+      },
+      {
+        "word": "the",
+        "start_offset": 17.78,
+        "end_offset": 18.33
+      },
+      {
+        "word": "cleaning",
+        "start_offset": 18.43,
+        "end_offset": 18.98
+      },
+      {
+        "word": "there",
+        "start_offset": 19.08,
+        "end_offset": 19.64
+      },
+      {
+        "word": "and",
+        "start_offset": 19.73,
+        "end_offset": 20.29
+      },
+      {
+        "word": "then",
+        "start_offset": 20.39,
+        "end_offset": 20.94
+      },
+      {
+        "word": "we",
+        "start_offset": 21.04,
+        "end_offset": 21.59
+      },
+      {
+        "word": "arrived",
+        "start_offset": 21.69,
+        "end_offset": 22.25
+      },
+      {
+        "word": "at",
+        "start_offset": 22.34,
+        "end_offset": 22.9
+      },
+      {
+        "word": "a",
+        "start_offset": 23.0,
+        "end_offset": 23.55
+      },
+      {
+        "word": "place",
+        "start_offset": 23.65,
+        "end_offset": 24.2
+      },
+      {
+        "word": "near",
+        "start_offset": 24.3,
+        "end_offset": 24.86
+      },
+      {
+        "word": "the",
+        "start_offset": 24.96,
+        "end_offset": 25.51
+      },
+      {
+        "word": "farm",
+        "start_offset": 25.61,
+        "end_offset": 26.16
+      },
+      {
+        "word": "where",
+        "start_offset": 26.26,
+        "end_offset": 26.82
+      },
+      {
+        "word": "there",
+        "start_offset": 26.91,
+        "end_offset": 27.47
+      },
+      {
+        "word": "is",
+        "start_offset": 27.57,
+        "end_offset": 28.12
+      },
+      {
+        "word": "a",
+        "start_offset": 28.22,
+        "end_offset": 28.77
+      },
+      {
+        "word": "lake",
+        "start_offset": 28.87,
+        "end_offset": 29.43
+      },
+      {
+        "word": "and",
+        "start_offset": 29.53,
+        "end_offset": 30.08
+      },
+      {
+        "word": "it",
+        "start_offset": 30.18,
+        "end_offset": 30.73
+      },
+      {
+        "word": "was",
+        "start_offset": 30.83,
+        "end_offset": 31.39
+      },
+      {
+        "word": "a",
+        "start_offset": 31.48,
+        "end_offset": 32.04
+      },
+      {
+        "word": "beautiful",
+        "start_offset": 32.14,
+        "end_offset": 32.69
+      },
+      {
+        "word": "scenery.",
+        "start_offset": 32.79,
+        "end_offset": 33.34
+      },
+      {
+        "word": "So,",
+        "start_offset": 33.44,
+        "end_offset": 34.0
+      },
+      {
+        "word": "and",
+        "start_offset": 34.09,
+        "end_offset": 34.65
+      },
+      {
+        "word": "also",
+        "start_offset": 34.75,
+        "end_offset": 35.3
+      },
+      {
+        "word": "the",
+        "start_offset": 35.4,
+        "end_offset": 35.95
+      },
+      {
+        "word": "weather",
+        "start_offset": 36.05,
+        "end_offset": 36.61
+      },
+      {
+        "word": "was",
+        "start_offset": 36.71,
+        "end_offset": 37.26
+      },
+      {
+        "word": "pretty",
+        "start_offset": 37.36,
+        "end_offset": 37.91
+      },
+      {
+        "word": "good.",
+        "start_offset": 38.01,
+        "end_offset": 38.57
+      },
+      {
+        "word": "We",
+        "start_offset": 38.66,
+        "end_offset": 39.22
+      },
+      {
+        "word": "enjoyed",
+        "start_offset": 39.32,
+        "end_offset": 39.87
+      },
+      {
+        "word": "sometime",
+        "start_offset": 39.97,
+        "end_offset": 40.52
+      },
+      {
+        "word": "there",
+        "start_offset": 40.62,
+        "end_offset": 41.18
+      },
+      {
+        "word": "and",
+        "start_offset": 41.28,
+        "end_offset": 41.83
+      },
+      {
+        "word": "then",
+        "start_offset": 41.93,
+        "end_offset": 42.48
+      },
+      {
+        "word": "we",
+        "start_offset": 42.58,
+        "end_offset": 43.14
+      },
+      {
+        "word": "returned",
+        "start_offset": 43.23,
+        "end_offset": 43.79
+      },
+      {
+        "word": "to",
+        "start_offset": 43.89,
+        "end_offset": 44.44
+      },
+      {
+        "word": "back",
+        "start_offset": 44.54,
+        "end_offset": 45.09
+      },
+      {
+        "word": "to",
+        "start_offset": 45.19,
+        "end_offset": 45.75
+      },
+      {
+        "word": "our",
+        "start_offset": 45.84,
+        "end_offset": 46.4
+      },
+      {
+        "word": "hotel.",
+        "start_offset": 46.5,
+        "end_offset": 47.0
+      }
+    ],
+    "asr_model_version": "gemini-flash-lite-latest",
+    "llm_model_version": "gemini-flash-lite-latest",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 204033,
+    "latency_llm_ms": 348548,
+    "input_tokens": 1930,
+    "output_tokens": 671,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-flash-lite-latest"
+    },
+    "weakness_tags": [
+      11,
+      10,
+      12
+    ]
+  }
+},
+{
+  "model": "recordings.analysisresult",
+  "pk": 25,
+  "fields": {
+    "created_at": "2026-09-28T13:26:13.854Z",
+    "updated_at": "2026-09-28T13:26:13.869Z",
+    "recording": 20,
+    "is_current": true,
+    "estimated_cefr": "B1",
+    "grammar_feedback": {
+      "overall_score": 75,
+      "strengths": [
+        "Effective use of complex sentence structures to express opinions.",
+        "Clear subject-verb agreement in most clauses."
+      ],
+      "corrections": [
+        {
+          "original": "in nowadays",
+          "corrected": "nowadays",
+          "explanation": "The word 'nowadays' is an adverb and does not require a preposition like 'in'.",
+          "rule_tag": "Prepositions"
+        },
+        {
+          "original": "the person who's in charge of developing that technology using AI, a person or a person who is supervising",
+          "corrected": "the developers or the supervisors",
+          "explanation": "The phrasing is redundant and repetitive. Using plural nouns creates a more concise and professional tone.",
+          "rule_tag": "Redundancy"
+        }
+      ]
+    },
+    "vocabulary_feedback": {
+      "overall_score": 70,
+      "advanced_words_used": [
+        "accountability",
+        "supervising",
+        "workflow"
+      ],
+      "suggestions": [
+        {
+          "word": "matters",
+          "alternatives": [
+            "is paramount",
+            "carries significant weight",
+            "is of critical importance"
+          ],
+          "context": "Use these alternatives to add professional gravity to your arguments in a colloquium setting."
+        },
+        {
+          "word": "real issue",
+          "alternatives": [
+            "pressing concern",
+            "complex challenge",
+            "contentious topic"
+          ],
+          "context": "These phrases elevate the register of your speech from casual to academic."
+        }
+      ]
+    },
+    "fluency_metrics": {
+      "wpm": 93,
+      "pause_count": 0,
+      "avg_pause_ms": 0,
+      "longest_pause_ms": 0,
+      "filler_count": 3,
+      "word_count": 68,
+      "speaking_duration": 44.0,
+      "promotion": {
+        "promoted": false,
+        "current_level": "B1",
+        "next_level": "B2",
+        "target_name": "B2 - Upper Intermediate",
+        "qualifying_sessions": 0,
+        "sessions_evaluated": 5,
+        "required_qualifying": 4,
+        "target_description": "Speak spontaneously on familiar topics with clear grammatical control and multi-clause complexity.",
+        "target_metrics": {
+          "min_wpm": 105,
+          "max_avg_pause_ms": 850,
+          "min_words_per_turn": 28,
+          "min_grammar_score": 84,
+          "min_vocab_score": 80
+        }
+      }
+    },
+    "word_timestamps": [
+      {
+        "word": "Well,",
+        "start_offset": 0.15,
+        "end_offset": 0.7
+      },
+      {
+        "word": "this",
+        "start_offset": 0.8,
+        "end_offset": 1.35
+      },
+      {
+        "word": "is",
+        "start_offset": 1.44,
+        "end_offset": 1.99
+      },
+      {
+        "word": "a",
+        "start_offset": 2.09,
+        "end_offset": 2.64
+      },
+      {
+        "word": "real",
+        "start_offset": 2.74,
+        "end_offset": 3.29
+      },
+      {
+        "word": "issue",
+        "start_offset": 3.39,
+        "end_offset": 3.94
+      },
+      {
+        "word": "in",
+        "start_offset": 4.03,
+        "end_offset": 4.58
+      },
+      {
+        "word": "nowadays",
+        "start_offset": 4.68,
+        "end_offset": 5.23
+      },
+      {
+        "word": "because",
+        "start_offset": 5.33,
+        "end_offset": 5.88
+      },
+      {
+        "word": "every",
+        "start_offset": 5.97,
+        "end_offset": 6.52
+      },
+      {
+        "word": "company",
+        "start_offset": 6.62,
+        "end_offset": 7.17
+      },
+      {
+        "word": "is",
+        "start_offset": 7.27,
+        "end_offset": 7.82
+      },
+      {
+        "word": "using",
+        "start_offset": 7.91,
+        "end_offset": 8.46
+      },
+      {
+        "word": "AI",
+        "start_offset": 8.56,
+        "end_offset": 9.11
+      },
+      {
+        "word": "in",
+        "start_offset": 9.21,
+        "end_offset": 9.76
+      },
+      {
+        "word": "their",
+        "start_offset": 9.86,
+        "end_offset": 10.41
+      },
+      {
+        "word": "workflow.",
+        "start_offset": 10.5,
+        "end_offset": 11.05
+      },
+      {
+        "word": "So",
+        "start_offset": 11.15,
+        "end_offset": 11.7
+      },
+      {
+        "word": "the",
+        "start_offset": 11.8,
+        "end_offset": 12.35
+      },
+      {
+        "word": "accountability",
+        "start_offset": 12.44,
+        "end_offset": 12.99
+      },
+      {
+        "word": "matters",
+        "start_offset": 13.09,
+        "end_offset": 13.64
+      },
+      {
+        "word": "in",
+        "start_offset": 13.74,
+        "end_offset": 14.29
+      },
+      {
+        "word": "this",
+        "start_offset": 14.39,
+        "end_offset": 14.94
+      },
+      {
+        "word": "scenario",
+        "start_offset": 15.03,
+        "end_offset": 15.58
+      },
+      {
+        "word": "and",
+        "start_offset": 15.68,
+        "end_offset": 16.23
+      },
+      {
+        "word": "it",
+        "start_offset": 16.33,
+        "end_offset": 16.88
+      },
+      {
+        "word": "matters",
+        "start_offset": 16.97,
+        "end_offset": 17.52
+      },
+      {
+        "word": "even",
+        "start_offset": 17.62,
+        "end_offset": 18.17
+      },
+      {
+        "word": "more",
+        "start_offset": 18.27,
+        "end_offset": 18.82
+      },
+      {
+        "word": "nowadays.",
+        "start_offset": 18.91,
+        "end_offset": 19.46
+      },
+      {
+        "word": "So",
+        "start_offset": 19.56,
+        "end_offset": 20.11
+      },
+      {
+        "word": "I,",
+        "start_offset": 20.21,
+        "end_offset": 20.76
+      },
+      {
+        "word": "in",
+        "start_offset": 20.86,
+        "end_offset": 21.41
+      },
+      {
+        "word": "my",
+        "start_offset": 21.5,
+        "end_offset": 22.05
+      },
+      {
+        "word": "opinion,",
+        "start_offset": 22.15,
+        "end_offset": 22.7
+      },
+      {
+        "word": "the",
+        "start_offset": 22.8,
+        "end_offset": 23.35
+      },
+      {
+        "word": "person",
+        "start_offset": 23.44,
+        "end_offset": 23.99
+      },
+      {
+        "word": "who's",
+        "start_offset": 24.09,
+        "end_offset": 24.64
+      },
+      {
+        "word": "in",
+        "start_offset": 24.74,
+        "end_offset": 25.29
+      },
+      {
+        "word": "charge",
+        "start_offset": 25.39,
+        "end_offset": 25.94
+      },
+      {
+        "word": "of",
+        "start_offset": 26.03,
+        "end_offset": 26.58
+      },
+      {
+        "word": "developing",
+        "start_offset": 26.68,
+        "end_offset": 27.23
+      },
+      {
+        "word": "that",
+        "start_offset": 27.33,
+        "end_offset": 27.88
+      },
+      {
+        "word": "technology",
+        "start_offset": 27.97,
+        "end_offset": 28.52
+      },
+      {
+        "word": "using",
+        "start_offset": 28.62,
+        "end_offset": 29.17
+      },
+      {
+        "word": "AI,",
+        "start_offset": 29.27,
+        "end_offset": 29.82
+      },
+      {
+        "word": "a",
+        "start_offset": 29.91,
+        "end_offset": 30.46
+      },
+      {
+        "word": "person",
+        "start_offset": 30.56,
+        "end_offset": 31.11
+      },
+      {
+        "word": "or",
+        "start_offset": 31.21,
+        "end_offset": 31.76
+      },
+      {
+        "word": "a",
+        "start_offset": 31.86,
+        "end_offset": 32.41
+      },
+      {
+        "word": "person",
+        "start_offset": 32.5,
+        "end_offset": 33.05
+      },
+      {
+        "word": "who",
+        "start_offset": 33.15,
+        "end_offset": 33.7
+      },
+      {
+        "word": "is",
+        "start_offset": 33.8,
+        "end_offset": 34.35
+      },
+      {
+        "word": "supervising",
+        "start_offset": 34.44,
+        "end_offset": 34.99
+      },
+      {
+        "word": "AI",
+        "start_offset": 35.09,
+        "end_offset": 35.64
+      },
+      {
+        "word": "agents'",
+        "start_offset": 35.74,
+        "end_offset": 36.29
+      },
+      {
+        "word": "output",
+        "start_offset": 36.39,
+        "end_offset": 36.94
+      },
+      {
+        "word": "should",
+        "start_offset": 37.03,
+        "end_offset": 37.58
+      },
+      {
+        "word": "be",
+        "start_offset": 37.68,
+        "end_offset": 38.23
+      },
+      {
+        "word": "the",
+        "start_offset": 38.33,
+        "end_offset": 38.88
+      },
+      {
+        "word": "one",
+        "start_offset": 38.97,
+        "end_offset": 39.52
+      },
+      {
+        "word": "that",
+        "start_offset": 39.62,
+        "end_offset": 40.17
+      },
+      {
+        "word": "should",
+        "start_offset": 40.27,
+        "end_offset": 40.82
+      },
+      {
+        "word": "be",
+        "start_offset": 40.91,
+        "end_offset": 41.46
+      },
+      {
+        "word": "accountable",
+        "start_offset": 41.56,
+        "end_offset": 42.11
+      },
+      {
+        "word": "for",
+        "start_offset": 42.21,
+        "end_offset": 42.76
+      },
+      {
+        "word": "the",
+        "start_offset": 42.86,
+        "end_offset": 43.41
+      },
+      {
+        "word": "outcomes.",
+        "start_offset": 43.5,
+        "end_offset": 44.0
+      }
+    ],
+    "asr_model_version": "gemini-3.5-transcribe",
+    "llm_model_version": "gemini-3.1-flash-lite",
+    "prompt_version": "v2.0-adaptive-eval",
+    "latency_asr_ms": 4530,
+    "latency_llm_ms": 7491,
+    "input_tokens": 1744,
+    "output_tokens": 546,
+    "raw_llm_response": {
+      "status": "success",
+      "evaluator": "gemini-3.1-flash-lite"
+    },
+    "weakness_tags": [
+      4,
+      2,
+      10
+    ]
+  }
+},
+{
+  "model": "recordings.weaknesstag",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-22T17:25:22.507Z",
+    "updated_at": "2026-09-22T17:25:22.507Z",
+    "name": "Past Tense",
+    "language": 1
+  }
+},
+{
+  "model": "recordings.weaknesstag",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-22T17:25:22.509Z",
+    "updated_at": "2026-09-22T17:25:22.509Z",
+    "name": "Prepositions",
+    "language": 1
+  }
+},
+{
+  "model": "recordings.weaknesstag",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-27T16:12:56.498Z",
+    "updated_at": "2026-09-27T16:12:56.498Z",
+    "name": "Task Achievement",
+    "language": 1
+  }
+},
+{
+  "model": "recordings.weaknesstag",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-09-27T16:12:56.500Z",
+    "updated_at": "2026-09-27T16:12:56.500Z",
+    "name": "Fluency & Hesitation",
+    "language": 1
+  }
+},
+{
+  "model": "recordings.weaknesstag",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-09-27T16:18:21.045Z",
+    "updated_at": "2026-09-27T16:18:21.045Z",
+    "name": "Complex Sentence Structure",
+    "language": 1
+  }
+},
+{
+  "model": "recordings.weaknesstag",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-09-28T09:58:08.327Z",
+    "updated_at": "2026-09-28T09:58:08.327Z",
+    "name": "Elaboration",
+    "language": 1
+  }
+},
+{
+  "model": "recordings.weaknesstag",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-09-28T10:25:27.107Z",
+    "updated_at": "2026-09-28T10:25:27.107Z",
+    "name": "Subject-verb Agreement",
+    "language": 1
+  }
+},
+{
+  "model": "recordings.weaknesstag",
+  "pk": 8,
+  "fields": {
+    "created_at": "2026-09-28T10:31:25.392Z",
+    "updated_at": "2026-09-28T10:31:25.392Z",
+    "name": "Pluralization",
+    "language": 1
+  }
+},
+{
+  "model": "recordings.weaknesstag",
+  "pk": 9,
+  "fields": {
+    "created_at": "2026-09-28T10:31:25.394Z",
+    "updated_at": "2026-09-28T10:31:25.394Z",
+    "name": "Collocation",
+    "language": 1
+  }
+},
+{
+  "model": "recordings.weaknesstag",
+  "pk": 10,
+  "fields": {
+    "created_at": "2026-09-28T12:40:54.743Z",
+    "updated_at": "2026-09-28T12:40:54.743Z",
+    "name": "Redundancy",
+    "language": 1
+  }
+},
+{
+  "model": "recordings.weaknesstag",
+  "pk": 11,
+  "fields": {
+    "created_at": "2026-09-28T12:40:54.748Z",
+    "updated_at": "2026-09-28T12:40:54.748Z",
+    "name": "Articles",
+    "language": 1
+  }
+},
+{
+  "model": "recordings.weaknesstag",
+  "pk": 12,
+  "fields": {
+    "created_at": "2026-09-28T12:40:54.751Z",
+    "updated_at": "2026-09-28T12:40:54.751Z",
+    "name": "Word Order",
+    "language": 1
+  }
+}
+]
